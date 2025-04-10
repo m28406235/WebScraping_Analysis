@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+from urllib.parse import urljoin
 
 
 def get_phone_maker_links():
@@ -28,9 +29,18 @@ def scrape_phone_specs(url):
                 print(data)
 
 
-phone_maker_links = get_phone_maker_links()
-for link in phone_maker_links:
-    full_url = "https://www.gsmarena.com" + link
-    print(f"Scraping {full_url}")
-    scrape_phone_specs(full_url)
-    print("\n" + "=" * 50 + "\n")
+if __name__ == "__main__":
+    phone_maker_links = get_phone_maker_links()
+    for link in phone_maker_links:
+        full_url = urljoin("https://www.gsmarena.com", link)
+        print(f"Scraping {full_url}")
+        scrape_phone_specs(full_url)
+        print("\n" + "=" * 50 + "\n")
+        user_input = (
+            input("Do you want to scrape the next phone specs? (y/n): ").strip().lower()
+        )
+        if user_input != "y":
+            print("\nExiting scraper. Goodbye!")
+            break
+        else:
+            print("\nContinuing to the next phone...\n")
