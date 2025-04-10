@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urljoin
+import json
 
 
 def get_phone_maker_links():
@@ -16,8 +17,12 @@ def get_phone_maker_links():
 
 
 def scrape_phone_specs(url):
+    phone_data = {}
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
+    title = soup.find("h1", class_="specs-phone-name-title")
+    phone_name = title.get_text(strip=True) if title else "Unknown"
+    phone_data["Phone Name"] = phone_name
     specs_list_div = soup.find("div", id="specs-list")
     if specs_list_div:
         tables = specs_list_div.find_all("table")
@@ -25,17 +30,32 @@ def scrape_phone_specs(url):
             rows = table.find_all("tr")
             for row in rows:
                 columns = row.find_all("td")
-                data = [column.get_text(strip=True) for column in columns]
-                print(data)
+                if len(columns) > 1:
+                    key = columns[0].get_text(strip=True)
+                    value = columns[1].get_text(strip=True)
+                    phone_data[key] = value
+    return phone_data
+
+
+def save_to_json(data, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
     phone_maker_links = get_phone_maker_links()
+    all_phone_specs = []
+
     for link in phone_maker_links:
         full_url = urljoin("https://www.gsmarena.com", link)
         print(f"Scraping {full_url}")
-        scrape_phone_specs(full_url)
+
+        phone_specs = scrape_phone_specs(full_url)
+        if phone_specs:
+            all_phone_specs.append(phone_specs)
+
         print("\n" + "=" * 50 + "\n")
+
         user_input = (
             input("Do you want to scrape the next phone specs? (y/n): ").strip().lower()
         )
@@ -44,3 +64,5 @@ if __name__ == "__main__":
             break
         else:
             print("\nContinuing to the next phone...\n")
+
+    save_to_json(all_phone_specs, "phone_specs.json")
