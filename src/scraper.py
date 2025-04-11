@@ -14,8 +14,11 @@ def get_phone_maker_links():
             links.append(link["href"])
     return links
 
-def scrape_phone_specs(url):
-    phone_data = {"Phone Name": "Unknown", "Specs": {}}
+def scrape_phone_specs(url, scraped_phones):
+    phone_data = {"Phone Name": "Unknown"}
+    if url in scraped_phones:
+        print(f"Skipping {url}, already scraped.")
+        return None
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
     title = soup.find("h1", class_="specs-phone-name-title")
@@ -31,12 +34,12 @@ def scrape_phone_specs(url):
                 th = row.find("th")
                 if th:
                     current_category = th.get_text(strip=True)
-                    phone_data["Specs"][current_category] = {}
                 columns = row.find_all("td")
                 if len(columns) > 1 and current_category:
                     key = columns[0].get_text(strip=True)
                     value = columns[1].get_text(strip=True)
-                    phone_data["Specs"][current_category][key] = value
+                    phone_data[key] = value
+    scraped_phones.add(url)
     return phone_data
 
 def save_to_json(data, filename):
@@ -46,10 +49,11 @@ def save_to_json(data, filename):
 if __name__ == "__main__":
     phone_maker_links = get_phone_maker_links()
     all_phone_specs = []
+    scraped_phones = set()
     for link in phone_maker_links:
         full_url = urljoin("https://www.gsmarena.com", link)
         print(f"Scraping {full_url}")
-        phone_specs = scrape_phone_specs(full_url)
+        phone_specs = scrape_phone_specs(full_url, scraped_phones)
         if phone_specs:
             all_phone_specs.append(phone_specs)
         print("\n" + "=" * 50 + "\n")
