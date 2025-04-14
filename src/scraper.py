@@ -29,14 +29,11 @@ def scrape_phone(url):
         if not specs:
             return None
         data = {"Phone Name": name.text.strip()}
-        cat = None
         for t in specs.find_all("table"):
             for row in t.find_all("tr"):
                 th = row.find("th")
                 if th and th.get("rowspan"):
                     cat = th.text.strip()
-                if not cat:
-                    continue
                 ttl = row.find("td", class_="ttl")
                 nfo = row.find("td", class_="nfo")
                 if nfo:
@@ -44,7 +41,6 @@ def scrape_phone(url):
                     key = nfo.get("data-spec") or (ttl.text.strip() if ttl else None)
                     if not key:
                         continue
-                    key = f"{cat}_{key}"
                     if key in data:
                         if isinstance(data[key], list):
                             data[key].append(val)
