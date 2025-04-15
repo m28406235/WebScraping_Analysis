@@ -29,25 +29,29 @@ def scrape_phone(url):
         if not specs:
             return None
         data = {"Phone Name": name.text.strip()}
+        categories = {}
+        current_cat = None
         for t in specs.find_all("table"):
             for row in t.find_all("tr"):
                 th = row.find("th")
                 if th and th.get("rowspan"):
-                    cat = th.text.strip()
+                    current_cat = th.text.strip()
+                    categories[current_cat] = categories.get(current_cat, {})
                 ttl = row.find("td", class_="ttl")
                 nfo = row.find("td", class_="nfo")
                 if nfo:
                     val = ' '.join(nfo.text.strip().split())
                     key = nfo.get("data-spec") or (ttl.text.strip() if ttl else None)
-                    if not key:
-                        continue
-                    if key in data:
-                        if isinstance(data[key], list):
-                            data[key].append(val)
+                    if key:
+                        target = categories[current_cat]
+                        if key in target:
+                            if isinstance(target[key], list):
+                                target[key].append(val)
+                            else:
+                                target[key] = [target[key], val]
                         else:
-                            data[key] = [data[key], val]
-                    else:
-                        data[key] = val
+                            target[key] = val
+        data.update(categories)
         return data
     except:
         return None
