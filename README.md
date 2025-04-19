@@ -55,11 +55,3 @@ We will scrape smartphone specifications from https://www.gsmarena.com for all p
 
    - Store in MongoDB using `pymongo`.
    - One document per phone.
-
-## Deliverables
-
-- Scripts for scraping, cleaning, analysis.
-- Raw JSON data (`phone_specs.json`).
-- Cleaned dataset.
-- MongoDB database.
-- Report with analysis and visualizations.
