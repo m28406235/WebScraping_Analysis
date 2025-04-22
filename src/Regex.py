@@ -21,3 +21,6 @@ phone_data["display_type"] = phone_data["display_type"].apply(lambda x: "OLED-Ba
 phone_data["antutu_benchmark_score"] = pd.to_numeric(phone_data["antutu_benchmark_score"], errors="coerce").astype("Int64")
 mean_scores_by_chipset = phone_data.groupby("chipset")["antutu_benchmark_score"].transform("mean").round().astype("Int64")
 phone_data["antutu_benchmark_score"] = phone_data["antutu_benchmark_score"].fillna(mean_scores_by_chipset).astype("Int64")
+
+def get_phone_data():
+    return phone_data
