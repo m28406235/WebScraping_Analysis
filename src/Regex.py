@@ -1,12 +1,8 @@
 import pandas as pd
 
-# Load data
 df = pd.read_json("phone_specs.json")
-
-# Normalize and prepare phone_specs
 phone_specs = {key.lower().replace(" ", "_"): (pd.json_normalize(df[key]) if isinstance(df[key][0], (dict, list)) else pd.DataFrame(df[key])) for key in df.columns}
 
-# Extract individual columns
 phone_name = phone_specs["phone_name"].squeeze()
 chipset = phone_specs["platform"]["chipset"].apply(lambda x: ", ".join([item.strip() for item in x]) if isinstance(x, list) else x)
 battery_capacity = phone_specs["battery"]["batdescription1"].str.extract(r"(\d+)")[0] + " mAh"
@@ -18,21 +14,10 @@ display_type, refresh_rate, brightness_from_display_type = display_type_info.str
 brightness_from_tests = phone_specs["tests"]["Display"].str.extract(r"(\d+\s*nits)")[0]
 brightness = brightness_from_tests.combine_first(brightness_from_display_type)
 
-# Create DataFrame
-phone_data = pd.DataFrame({
-    "phone_name": phone_name, 
-    "chipset": chipset, 
-    "battery_capacity": battery_capacity, 
-    "charging_info": charging_info, 
-    "price_info": price_info, 
-    "antutu_benchmark_score": antutu_benchmark_score, 
-    "display_type": display_type, 
-    "refresh_rate": refresh_rate, 
-    "brightness": brightness
-})
-
-# Set display format and handle missing values
+phone_data = pd.DataFrame({"phone_name": phone_name, "chipset": chipset, "battery_capacity": battery_capacity, "charging_info": charging_info, "price_info": price_info, "antutu_benchmark_score": antutu_benchmark_score, "display_type": display_type, "refresh_rate": refresh_rate, "brightness": brightness})
 pd.set_option("display.float_format", "{:,.0f}".format)
+
+phone_data["display_type"] = phone_data["display_type"].apply(lambda x: "OLED-Based" if pd.notna(x) and "OLED" in str(x).upper() else "LCD-Based")
 phone_data["antutu_benchmark_score"] = pd.to_numeric(phone_data["antutu_benchmark_score"], errors="coerce").astype("Int64")
 mean_scores_by_chipset = phone_data.groupby("chipset")["antutu_benchmark_score"].transform("mean").round().astype("Int64")
 phone_data["antutu_benchmark_score"] = phone_data["antutu_benchmark_score"].fillna(mean_scores_by_chipset).astype("Int64")
