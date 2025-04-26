@@ -1,61 +1,31 @@
-import pandas as pd
-
-phone_specs_df = pd.read_json("phone_specs.json")
-
-normalized_phone_specs = {
-    column_name.lower().replace(" ", "_"): (
-        pd.json_normalize(phone_specs_df[column_name])
-        if isinstance(phone_specs_df[column_name][0], (dict, list))
-        else pd.DataFrame(phone_specs_df[column_name])
-    )
-    for column_name in phone_specs_df.columns
-}
-
-phone_names = normalized_phone_specs["phone_name"].squeeze()
-chipsets = normalized_phone_specs["platform"]["chipset"].apply(
-    lambda chipset: ", ".join([item.split(" (")[0].strip() for item in chipset])
-    if isinstance(chipset, list)
-    else chipset.split(" (")[0].strip()
-    if isinstance(chipset, str)
-    else chipset
-)
-battery_capacities = normalized_phone_specs["battery"]["batdescription1"].str.extract(r"(\d+)")[0].fillna(0).astype(int)
-charging_speeds = normalized_phone_specs["battery"]["Charging"].str.extract(r"(\d+)")[0].fillna(0).astype(int)
-prices = normalized_phone_specs["misc"]["price"].str.split(" / ").str[0].apply(
-    lambda price: f"{price[0]}{price[1:].replace(',', '')}" if isinstance(price, str) and price and price[0] in "$€£₹"
-    else f"€{price[6:9].replace(',', '')}" if isinstance(price, str) and pd.notna(price)
-    else price
-)
-antutu_scores = normalized_phone_specs["tests"]["tbench"].str.extract(r"AnTuTu:\s*(\d+)")[0].fillna(0).astype(int)
-display_info = normalized_phone_specs["display"]["displaytype"].str.strip().str.split(",").apply(
-    lambda display: ", ".join([item.strip() for item in display]) if isinstance(display, list) else display
-)
-display_types = display_info.str.split(",").str[0].str.strip()
-refresh_rates = display_info.str.extract(r"(\d+)\s*Hz")[0].astype("Int64")
-brightness_from_display_info = display_info.str.extract(r"(\d+)\s*nits")[0]
-brightness_from_tests = normalized_phone_specs["tests"]["Display"].str.extract(r"(\d+)\s*nits")[0]
-brightness_levels = brightness_from_tests.combine_first(brightness_from_display_info).astype("Int64")
-
-processed_phone_data = pd.DataFrame({
-    "phone_name": phone_names,
-    "chipset": chipsets,
-    "battery_capacity": battery_capacities,
-    "charging_speed": charging_speeds,
-    "price": prices,
-    "antutu_score": antutu_scores,
-    "display_type": display_types,
-    "refresh_rate": refresh_rates,
-    "brightness": brightness_levels
-})
-
-pd.set_option("display.float_format", "{:,.0f}".format)
-
-processed_phone_data["display_type"] = processed_phone_data["display_type"].apply(
-    lambda display: "OLED-Based" if pd.notna(display) and "OLED" in str(display).upper() else "LCD-Based"
-)
-processed_phone_data["antutu_score"] = pd.to_numeric(processed_phone_data["antutu_score"], errors="coerce").astype("Int64")
-mean_antutu_scores_by_chipset = processed_phone_data.groupby("chipset")["antutu_score"].transform("mean").round().astype("Int64")
-processed_phone_data["antutu_score"] = processed_phone_data["antutu_score"].fillna(mean_antutu_scores_by_chipset).astype("Int64")
+import re, requests, pandas as pd
 
 def get_processed_phone_data():
-    return processed_phone_data
+    df = pd.read_json("phone_specs.json")
+    specs = {col.lower().replace(" ", "_"): pd.json_normalize(df[col]) if isinstance(df[col][0], (dict, list)) else pd.DataFrame(df[col]) for col in df.columns}
+
+    rates = {k: 1/v for k, v in requests.get("https://open.er-api.com/v6/latest/USD").json()["rates"].items()}
+    symbol_map = {'$': 'USD', '€': 'EUR', '£': 'GBP', '₹': 'INR'}
+
+    def to_usd(x):
+        m = re.search(r'([\$€£₹])?\s?([\d,]+(?:\.\d{2})?)\s?(USD|EUR|GBP|INR)?', str(x))
+        if m: return round(float(m.group(2).replace(',', '')) * rates.get(symbol_map.get(m.group(1), m.group(3)), 1), 2)
+
+    data = pd.DataFrame({
+        "phone_name": specs["phone_name"].squeeze(),
+        "chipset": specs["platform"]["chipset"].apply(lambda x: ", ".join(i.split(" (")[0].strip() for i in x) if isinstance(x, list) else x.split(" (")[0].strip() if isinstance(x, str) else x),
+        "battery_capacity": specs["battery"]["batdescription1"].str.extract(r"(\d+)")[0].fillna(0).astype(int),
+        "charging_speed": specs["battery"]["Charging"].str.extract(r"(\d+)")[0].fillna(0).astype(int),
+        "price": specs["misc"]["price"].apply(to_usd),
+        "antutu_score": specs["tests"]["tbench"].str.extract(r"AnTuTu:\s*(\d+)")[0].fillna(0).astype(int),
+        "display_type": specs["display"]["displaytype"].str.strip().str.split(",").apply(lambda x: ", ".join(i.strip() for i in x) if isinstance(x, list) else x).str.split(",").str[0].str.strip(),
+        "refresh_rate": specs["display"]["displaytype"].str.extract(r"(\d+)\s*Hz")[0].astype("Int64"),
+        "brightness": specs["tests"]["Display"].str.extract(r"(\d+)\s*nits")[0].combine_first(specs["display"]["displaytype"].str.extract(r"(\d+)\s*nits")[0]).astype("Int64")
+    })
+
+    pd.set_option("display.float_format", "{:,.0f}".format)
+
+    data["display_type"] = data["display_type"].apply(lambda x: "OLED-Based" if pd.notna(x) and "OLED" in str(x).upper() else "LCD-Based")
+    data["antutu_score"] = pd.to_numeric(data["antutu_score"], errors="coerce").fillna(data.groupby("chipset")["antutu_score"].transform("mean")).astype("Int64")
+
+    return data
