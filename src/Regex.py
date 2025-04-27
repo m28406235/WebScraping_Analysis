@@ -1,4 +1,8 @@
-import re, requests, pandas as pd
+import re
+import requests
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 
 def get_processed_phone_data():
     df = pd.read_json("phone_specs.json")
@@ -27,5 +31,20 @@ def get_processed_phone_data():
 
     data["display_type"] = data["display_type"].apply(lambda x: "OLED-Based" if pd.notna(x) and "OLED" in str(x).upper() else "LCD-Based")
     data["antutu_score"] = pd.to_numeric(data["antutu_score"], errors="coerce").fillna(data.groupby("chipset")["antutu_score"].transform("mean")).astype("Int64")
+
+    q1, q3 = data['price'].quantile([0.25, 0.75])
+    filtered_data = data[data['price'].between(q1 - 1.5 * (q3 - q1), q3 + 1.5 * (q3 - q1))]
+
+    prices = filtered_data['price'].values.reshape(-1, 1)
+    clusters = KMeans(n_clusters=3, random_state=42).fit_predict(StandardScaler().fit_transform(prices))
+
+    filtered_data['phone_tier'] = clusters
+    data = data.merge(filtered_data[['phone_tier']], left_index=True, right_index=True, how='left')
+    data['phone_tier'] = data['phone_tier'].fillna(-1).astype(int)
+
+    cluster_means = data[data['phone_tier'] != -1].groupby('phone_tier')['price'].mean().sort_values()
+    cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i] for i, c in enumerate(cluster_means.index)}
+    cluster_map[-1] = 'Flagship'
+    data['phone_tier'] = data['phone_tier'].map(cluster_map)
 
     return data
