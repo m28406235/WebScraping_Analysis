@@ -1,19 +1,22 @@
-import re
-import requests
-import pandas as pd
+import os, re, requests, pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+import warnings
+
+os.environ["LOKY_MAX_CPU_COUNT"] = "4"
+warnings.filterwarnings("ignore", category=UserWarning, module="joblib")
+pd.options.mode.chained_assignment = None
 
 def get_processed_phone_data():
     df = pd.read_json("phone_specs.json")
-    specs = {col.lower().replace(" ", "_"): pd.json_normalize(df[col]) if isinstance(df[col][0], (dict, list)) else pd.DataFrame(df[col]) for col in df.columns}
-
-    rates = {k: 1/v for k, v in requests.get("https://open.er-api.com/v6/latest/USD").json()["rates"].items()}
+    specs = {col.lower().replace(" ", "_"): (pd.json_normalize(df[col]) if isinstance(df[col][0], (dict, list)) else pd.DataFrame(df[col])) for col in df.columns}
+    
+    rates = {k: 1 / v for k, v in requests.get("https://open.er-api.com/v6/latest/USD").json()["rates"].items()}
     symbol_map = {'$': 'USD', '€': 'EUR', '£': 'GBP', '₹': 'INR'}
 
     def to_usd(x):
         m = re.search(r'([\$€£₹])?\s?([\d,]+(?:\.\d{2})?)\s?(USD|EUR|GBP|INR)?', str(x))
-        if m: return round(float(m.group(2).replace(',', '')) * rates.get(symbol_map.get(m.group(1), m.group(3)), 1), 2)
+        return round(float(m.group(2).replace(',', '')) * rates.get(symbol_map.get(m.group(1), m.group(3)), 1), 2) if m else None
 
     data = pd.DataFrame({
         "phone_name": specs["phone_name"].squeeze(),
@@ -28,16 +31,13 @@ def get_processed_phone_data():
     })
 
     pd.set_option("display.float_format", "{:,.0f}".format)
-
     data["display_type"] = data["display_type"].apply(lambda x: "OLED-Based" if pd.notna(x) and "OLED" in str(x).upper() else "LCD-Based")
     data["antutu_score"] = pd.to_numeric(data["antutu_score"], errors="coerce").fillna(data.groupby("chipset")["antutu_score"].transform("mean")).astype("Int64")
-
+    
     q1, q3 = data['price'].quantile([0.25, 0.75])
     filtered_data = data[data['price'].between(q1 - 1.5 * (q3 - q1), q3 + 1.5 * (q3 - q1))]
-
     prices = filtered_data['price'].values.reshape(-1, 1)
     clusters = KMeans(n_clusters=3, random_state=42).fit_predict(StandardScaler().fit_transform(prices))
-
     filtered_data['phone_tier'] = clusters
     data = data.merge(filtered_data[['phone_tier']], left_index=True, right_index=True, how='left')
     data['phone_tier'] = data['phone_tier'].fillna(-1).astype(int)
@@ -46,5 +46,4 @@ def get_processed_phone_data():
     cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i] for i, c in enumerate(cluster_means.index)}
     cluster_map[-1] = 'Flagship'
     data['phone_tier'] = data['phone_tier'].map(cluster_map)
-
     return data
