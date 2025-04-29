@@ -254,7 +254,7 @@ fig.update_layout(
     showlegend=False
 )
 fig.show()
-#7
+#8
 # Box Plot for Brightness by Display Type
 fig = px.box(
     phone_data,
