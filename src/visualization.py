@@ -69,6 +69,7 @@ color_map = {
     'Flagship':  'rgba(255, 0, 0, 0.7)'
 }
 
+
 # order the phone_tier column
 phone_data['phone_tier'] = pd.Categorical(phone_data['phone_tier'], categories=tier_order, ordered=True)
 phone_data['text'] = phone_data['phone_name']
@@ -129,7 +130,6 @@ fig.update_layout(
     template="plotly_white"
 )
 
-# عرض الرسم
 fig.show()
 #2
 # Bubble Chart for Battery vs Charging Speed
