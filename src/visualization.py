@@ -31,6 +31,7 @@ phone_data['refresh_rate'] = phone_data['refresh_rate'].fillna(phone_data['refre
 phone_data['brightness'] = phone_data['brightness'].astype('float')
 phone_data['brightness'] = phone_data.groupby('display_type')['brightness'].transform(lambda x: x.fillna(x.mean()))
 
+#KNN Imputation for Antutu Score
 phone_data["antutu_score"] = phone_data["antutu_score"].replace(0, pd.NA)
 encoder = LabelEncoder()
 phone_data["phone_tier_encoded"] = encoder.fit_transform(phone_data["phone_tier"])
@@ -40,6 +41,10 @@ imputed_data = knn_imputer.fit_transform(phone_data[features])
 phone_data["antutu_score"] = imputed_data[:, 2]
 phone_data["antutu_score"] = phone_data["antutu_score"].astype(int)
 phone_data = phone_data.drop(columns=["phone_tier_encoded"])
+st.write("After Cleaning")
+st.write("Missing values:", phone_data.isnull().sum())
+
+
 
 tier_order = ["Budget", "Mid-Range", "Premium", "Flagship"]
 phone_data["phone_tier"] = pd.Categorical(phone_data["phone_tier"], categories=tier_order, ordered=True)
@@ -77,7 +82,7 @@ for _, row in best_phones_data.iterrows():
         x=[row['price']],
         y=[row['antutu_score']],
         mode='markers',
-        marker=dict(symbol='diamond', size=10, color=color_map[row['phone_tier']], line=dict(width=1.5, color='black')),
+        marker=dict(symbol='diamond', size=10, color=color_map[row['phone_tier']], line=dict(width=1.2, color='gold')),
         name=f"Best Phone ({row['phone_tier']})",
         hovertemplate=(
             f"<b>{row['phone_name']}</b><br>"
