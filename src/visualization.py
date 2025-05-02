@@ -61,23 +61,75 @@ tier_order = ["Budget", "Mid-Range", "Premium", "Flagship"]
 phone_data["phone_tier"] = pd.Categorical(phone_data["phone_tier"], categories=tier_order, ordered=True)
 
 #1
-# Scatter Plot for Performance vs Price
-tier_order = ['Budget', 'Mid-Range', 'Premium', 'Flagship']
-phone_data['phone_tier'] = pd.Categorical(phone_data['phone_tier'], categories=tier_order, ordered=True)
+#Scatter Plot for Performance vs Price
+color_map = {
+    'Budget':    'rgba(0, 200, 81, 0.7)',
+    'Mid-Range': 'rgba(0, 122, 255, 0.7)',
+    'Premium':   'rgba(138, 43, 226, 0.7)',
+    'Flagship':  'rgba(255, 0, 0, 0.7)'
+}
 
+# order the phone_tier column
+phone_data['phone_tier'] = pd.Categorical(phone_data['phone_tier'], categories=tier_order, ordered=True)
 phone_data['text'] = phone_data['phone_name']
 
-best_phones_idx = phone_data.groupby('phone_tier').apply(lambda group: (group['antutu_score'] / group['price']).idxmax())
+# choose the best phone in each tier based on the ratio of antutu_score to price
+best_phones_idx = phone_data.groupby('phone_tier').apply(
+    lambda group: (group['antutu_score'] / group['price']).idxmax()
+)
 best_phones_data = phone_data.loc[best_phones_idx]
 
-fig = px.scatter(phone_data, x='price', y='antutu_score', color='phone_tier', category_orders={'phone_tier': tier_order}, color_discrete_map={'Budget': '#2ca02c', 'Mid-Range': '#1f77b4', 'Premium': '#9467bd', 'Flagship': '#d62728'}, hover_data={'text': True, 'price': True, 'antutu_score': False, 'phone_tier': False})
+fig = px.scatter(
+    phone_data,
+    x='price',
+    y='antutu_score',
+    color='phone_tier',
+    category_orders={'phone_tier': tier_order},
+    color_discrete_map=color_map,
+    hover_data={
+        'text': True,
+        'price': True,
+        'antutu_score': True,
+        'phone_tier': False
+    },
+    title="Price vs Antutu Score",
+    labels={
+        'price': 'Price (USD)',
+        'antutu_score': 'Antutu Score (K)'
+    }
+)
 
-fig.add_scatter(x=best_phones_data['price'], y=best_phones_data['antutu_score'], mode='markers', marker=dict(symbol='diamond', size=10, color='gold', line=dict(width=2, color='black')), name="Best Phones", hovertemplate='%{customdata[0]}<br>Price: %{x}<extra></extra>', customdata=best_phones_data[['text']])
+# Add symbol for best phones
+for _, row in best_phones_data.iterrows():
+    fig.add_scatter(
+        x=[row['price']],
+        y=[row['antutu_score']],
+        mode='markers',
+        marker=dict(
+            symbol='diamond',
+            size=10,
+            color=color_map[row['phone_tier']],
+            line=dict(width=1.5, color='black')
+        ),
+        name=f"Best Phone ({row['phone_tier']})",
+        hovertemplate=(
+            f"<b>{row['phone_name']}</b><br>"
+            f"Price: {row['price']}<br>"
+            f"Phone Tier: {row['phone_tier']}<br>"
+            f"Antutu Score: {row['antutu_score']}<extra></extra>"
+        )
+    )
 
-fig.update_traces(hovertemplate='%{customdata[0]}<br>Price: %{x}<extra></extra>', customdata=phone_data[['text']], marker=dict(size=10), selector=dict(mode='markers'))
+# layout
+fig.update_layout(
+    xaxis_title="Price (USD)",
+    yaxis_title="Antutu Score (K)",
+    legend_title="Phone Tier",
+    hovermode='closest',
+    template="plotly_white"
+)
 
-fig.update_layout(title="Price vs Antutu Score", xaxis_title="Price", yaxis_title="Antutu Score", legend_title="Phone Tier", hovermode='closest')
-
+# عرض الرسم
 fig.show()
 #2
 # Bubble Chart for Battery vs Charging Speed
