@@ -1,67 +1,95 @@
-from bs4 import BeautifulSoup
-import requests
+import aiohttp
+import asyncio
 import json
 import os
-import time
-import random
+from bs4 import BeautifulSoup
+from tqdm.asyncio import tqdm_asyncio
 from urllib.parse import urljoin
-from tqdm import tqdm
 
 BASE_URL = "https://www.gsmarena.com"
-SEARCH_URL = f"{BASE_URL}/results.php3?nYearMin=2020&nYearMax=2024&nPriceMin=400&nPriceMax=450&nDisplayResMin=2073600&sAvailabilities=1&idOS=2&sChipset=158,125,143,116,115,104,144,140,154,124,123,114,156,145,141,142,155,122,92,77,79,57,42,80,41,31,27,1,2,3,120,81,91,62,43,82,83,46,36,58,48,29,105,78,127,106,35,33,44,90,4,5,45,28,59,6,7,89,61,8,34,9,10,60,11,88&sFingerprints=1"
 JSON_FILE = "phone_specs.json"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+}
+
+search_urls = [
+    "https://www.gsmarena.com/results.php3?nPriceMin=900&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=700&nPriceMax=900&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=600&nPriceMax=700&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=500&nPriceMax=600&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=400&nPriceMax=500&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=350&nPriceMax=400&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=300&nPriceMax=350&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=250&nPriceMax=300&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMin=200&nPriceMax=250&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nYearMin=2023&nPriceMin=150&nPriceMax=200&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nYearMax=2023&nPriceMin=150&nPriceMax=200&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
+    "https://www.gsmarena.com/results.php3?nPriceMax=150&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1"
+]
 
 
-def get_links():
+def extract_specs_data(specs_element):
+    categories = {}
+    current_category = None
+    for table in specs_element.find_all("table"):
+        for row in table.find_all("tr"):
+            category_header = row.find("th")
+            if category_header and category_header.get("rowspan"):
+                current_category = category_header.text.strip()
+                categories[current_category] = {}
+
+            title_cell = row.find("td", class_="ttl")
+            value_cell = row.find("td", class_="nfo")
+
+            if value_cell:
+                value = ' '.join(value_cell.text.strip().split())
+                key = value_cell.get(
+                    "data-spec") or (title_cell.text.strip() if title_cell else None)
+                if key and current_category:
+                    target = categories[current_category]
+                    if key in target:
+                        if isinstance(target[key], list):
+                            target[key].append(value)
+                        else:
+                            target[key] = [target[key], value]
+                    else:
+                        target[key] = value
+    return categories
+
+
+async def get_phone_links(session, url):
     try:
-        r = requests.get(SEARCH_URL, headers=HEADERS, timeout=10)
-        r.raise_for_status()
-        s = BeautifulSoup(r.text, "html.parser")
-        return [a["href"] for d in s.find_all("div", class_="makers") for a in d.find_all("a", href=True)]
-    except:
+        async with session.get(url, timeout=10) as response:
+            if response.status == 429:
+                print(f"Rate limited at {url}")
+                return []
+            text = await response.text()
+            soup = BeautifulSoup(text, "html.parser")
+            return [urljoin(BASE_URL, a["href"])
+                    for div in soup.find_all("div", class_="makers")
+                    for a in div.find_all("a", href=True)]
+    except Exception as e:
+        print(f"Error fetching links from {url}: {e}")
         return []
 
 
-def scrape_phone(url):
+async def scrape_phone(session, url):
     try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        r.raise_for_status()
-        s = BeautifulSoup(r.text, "html.parser")
-        name = s.find("h1", class_="specs-phone-name-title")
-        if not name:
-            return None
-        specs = s.find("div", id="specs-list")
-        if not specs:
-            return None
-        data = {"Phone Name": name.text.strip()}
-        categories = {}
-        current_cat = None
-        for t in specs.find_all("table"):
-            for row in t.find_all("tr"):
-                th = row.find("th")
-                if th and th.get("rowspan"):
-                    current_cat = th.text.strip()
-                    categories[current_cat] = categories.get(current_cat, {})
-                ttl = row.find("td", class_="ttl")
-                nfo = row.find("td", class_="nfo")
-                if nfo:
-                    val = ' '.join(nfo.text.strip().split())
-                    key = nfo.get(
-                        "data-spec") or (ttl.text.strip() if ttl else None)
-                    if key:
-                        target = categories[current_cat]
-                        if key in target:
-                            if isinstance(target[key], list):
-                                target[key].append(val)
-                            else:
-                                target[key] = [target[key], val]
-                        else:
-                            target[key] = val
-        data.update(categories)
-        return data
-    except:
+        async with session.get(url, timeout=10) as response:
+            if response.status == 429:
+                print(f"Rate limited at {url}")
+                return None
+            text = await response.text()
+            soup = BeautifulSoup(text, "html.parser")
+            name_element = soup.find("h1", class_="specs-phone-name-title")
+            specs_element = soup.find("div", id="specs-list")
+            if not name_element or not specs_element:
+                return None
+            data = {"Phone Name": name_element.text.strip()}
+            data.update(extract_specs_data(specs_element))
+            return data
+    except Exception as e:
+        print(f"Error scraping {url}: {e}")
         return None
 
 
@@ -70,37 +98,50 @@ def load_json():
         try:
             with open(JSON_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                return data, set(i["Phone Name"] for i in data)
+                existing = set(item["Phone Name"] for item in data)
+                return data, existing
         except:
             return [], set()
     return [], set()
 
 
 def save_json(data):
-    try:
-        with open(JSON_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    except:
-        pass
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Saved to {JSON_FILE}")
 
 
-def main():
-    all_data, seen = load_json()
-    links = get_links()
-    if not links:
-        return
-    new = 0
-    for link in tqdm(links, desc="Scraping phones", unit="phone"):
-        url = urljoin(BASE_URL, link)
-        phone = scrape_phone(url)
-        if phone and phone["Phone Name"] not in seen:
-            all_data.append(phone)
-            seen.add(phone["Phone Name"])
-            new += 1
-        time.sleep(random.uniform(0.5, 1.5))
+async def scrape_search_url(session, search_url, all_data, seen_phones):
+    phone_links = await get_phone_links(session, search_url)
+    print(f"Found {len(phone_links)} phone links in {search_url}.")
+
+    scrape_tasks = [scrape_phone(session, url) for url in phone_links]
+    results = await tqdm_asyncio.gather(*scrape_tasks, desc="Scraping phones", unit="phone")
+
+    new_count = 0
+    for phone_data in results:
+        if phone_data and phone_data["Phone Name"] not in seen_phones:
+            all_data.append(phone_data)
+            seen_phones.add(phone_data["Phone Name"])
+            new_count += 1
+
+    return new_count
+
+
+async def main():
+    all_data, seen_phones = load_json()
+    print(f"Loaded {len(all_data)} existing phones.")
+
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        new_total = 0
+        for search_url in search_urls:
+            print(f"Processing {search_url}...")
+            new_count = await scrape_search_url(session, search_url, all_data, seen_phones)
+            new_total += new_count
+            print(f"New phones added from this search URL: {new_count}")
+
     save_json(all_data)
-    print(f"Scraped: {len(all_data)} | New: {new}")
-
+    print(f"Done. Total phones: {len(all_data)} | Newly added: {new_total}")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
