@@ -53889,5 +53889,661 @@
       "models": "A2121",
       "price": "About 440 EUR"
     }
+  },
+  {
+    "Phone Name": "Apple iPhone 16 Pro Max",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66 - A3296",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3296",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2024, September 09",
+      "status": "Available. Released 2024, September 20"
+    },
+    "Body": {
+      "dimensions": "163 x 77.6 x 8.3 mm (6.42 x 3.06 x 0.33 in)",
+      "weight": "227 g (8.01 oz)",
+      "build": "Glass front, glass back, titanium frame (grade 5)",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "displaysize": "6.9 inches, 115.6 cm2 (~91.4% screen-to-body ratio)",
+      "displayresolution": "1320 x 2868 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass (2024 gen)",
+      "displayother": "Always-On display"
+    },
+    "Platform": {
+      "os": "iOS 18, upgradable to iOS 18.4",
+      "chipset": "Apple A18 Pro (3 nm)",
+      "cpu": "Hexa-core (2x4.05 GHz + 4x2.42 GHz)",
+      "gpu": "Apple GPU (6-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom 48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7µm, PDAF TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec.",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support (gen2 chip) Emergency SOS, Messages and Find My via satellite"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 4685 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min 25W wireless (MagSafe), 15W wireless (China only) 15W wireless (Qi2) 4.5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
+      "models": "A3296, A3084, A3295, A3297, iPhone17,2",
+      "sar-us": "1.01 W/kg (head) 1.15 W/kg (body)",
+      "sar-eu": "1.22 W/kg (head) 1.45 W/kg (body)",
+      "price": "$ 894.94 / € 1,272.00 / £ 949.95"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1838828 (v10) GeekBench: 8606 (v6) 3DMark: 4731 (Wild Life Extreme)",
+      "Display": "1796 nits max brightness (measured)",
+      "Loudspeaker": "-24.4 LUFS (Very good)",
+      "batlife2": "Active use score 17:18h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 16 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66 - A3293",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3293",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2024, September 09",
+      "status": "Available. Released 2024, September 20"
+    },
+    "Body": {
+      "dimensions": "149.6 x 71.5 x 8.3 mm (5.89 x 2.81 x 0.33 in)",
+      "weight": "199 g (7.02 oz)",
+      "build": "Glass front, glass back, titanium frame (grade 5)",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "displaysize": "6.3 inches, 96.4 cm2 (~90.1% screen-to-body ratio)",
+      "displayresolution": "1206 x 2622 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass (2024 gen)",
+      "displayother": "Always-On display"
+    },
+    "Platform": {
+      "os": "iOS 18, upgradable to iOS 18.4",
+      "chipset": "Apple A18 Pro (3 nm)",
+      "cpu": "Hexa-core (2x4.05 GHz + 4x2.42 GHz)",
+      "gpu": "Apple GPU (6-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom 48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7µm, PDAF TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec.",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support (gen2 chip) Emergency SOS, Messages and Find My via satellite"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3582 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min 25W wireless (MagSafe), 15W wireless (China only) 15W wireless (Qi2) 4.5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
+      "models": "A3293, A3083, A3292, A3294, iPhone17,1",
+      "sar-us": "1.09 W/kg (head) 1.19 W/kg (body)",
+      "sar-eu": "1.24 W/kg (head) 1.48 W/kg (body)",
+      "price": "$ 780.00 / € 1,025.00 / £ 820.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1871052 (v10) GeekBench: 8283 (v6) 3DMark: 4898 (Wild Life Extreme)",
+      "Display": "1764 nits max brightness (measured)",
+      "Loudspeaker": "-27.3 LUFS (Good)",
+      "batlife2": "Active use score 14:17h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 15 Pro Max",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66 - A3106",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3106",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2023, September 12",
+      "status": "Available. Released 2023, September 22"
+    },
+    "Body": {
+      "dimensions": "159.9 x 76.7 x 8.3 mm (6.30 x 3.02 x 0.33 in)",
+      "weight": "221 g (7.80 oz)",
+      "build": "Glass front, glass back, titanium frame (grade 5)",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "displaysize": "6.7 inches, 110.2 cm2 (~89.8% screen-to-body ratio)",
+      "displayresolution": "1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass",
+      "displayother": "Always-On display"
+    },
+    "Platform": {
+      "os": "iOS 17, upgradable to iOS 18.4",
+      "chipset": "Apple A17 Pro (3 nm)",
+      "cpu": "Hexa-core (2x3.78 GHz + 4x2.11 GHz)",
+      "gpu": "Apple GPU (6-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom 12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video, stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR, Dolby Vision HDR",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support (gen2 chip) Emergency SOS, Messages and Find My via satellite"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 4441 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.2 update 4.5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black Titanium, White Titanium, Blue Titanium, Natural Titanium",
+      "models": "A2849, A3105, A3106, A3108, iPhone16,2",
+      "sar-us": "1.07 W/kg (head) 1.11 W/kg (body)",
+      "sar-eu": "0.98 W/kg (head) 0.98 W/kg (body)",
+      "price": "$ 649.95 / € 969.50 / £ 702.99 / ₹ 134,899"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1487203 (v10) GeekBench: 7237 (v6.0)",
+      "Display": "1787 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-24.5 LUFS (Very good)",
+      "batlife2": "Active use score 16:01h",
+      "batlife": "Endurance rating 118h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 16 Plus",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66 - A3290",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3290",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2024, September 09",
+      "status": "Available. Released 2024, September 20"
+    },
+    "Body": {
+      "dimensions": "160.9 x 77.8 x 7.8 mm (6.33 x 3.06 x 0.31 in)",
+      "weight": "199 g (7.02 oz)",
+      "build": "Glass front, glass back, aluminum frame",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "Super Retina XDR OLED, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "displaysize": "6.7 inches, 110.2 cm2 (~88.0% screen-to-body ratio)",
+      "displayresolution": "1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass (2024 gen)"
+    },
+    "Platform": {
+      "os": "iOS 18, upgradable to iOS 18.4",
+      "chipset": "Apple A18 (3 nm)",
+      "cpu": "Hexa-core (2x4.04 GHz + 4x2.20 GHz)",
+      "gpu": "Apple GPU (5-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.2, 13mm, 120˚ (ultrawide), 0.7µm, dual pixel PDAF",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec.",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, tri-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support (gen2 chip) Emergency SOS, Messages and Find My via satellite"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 4674 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min 25W wireless (MagSafe), 15W wireless (China only) 15W wireless (Qi2) 4.5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black, White, Pink, Teal, Ultramarine",
+      "models": "A3290, A3082, A3289, A3291, iPhone17,4",
+      "sar-us": "1.13 W/kg (head) 1.16 W/kg (body)",
+      "sar-eu": "1.24 W/kg (head) 1.33 W/kg (body)",
+      "price": "$ 693.75 / € 933.00 / £ 769.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1727276 (v10) GeekBench: 7927 (v6) 3DMark: 4324 (Wild Life Extreme)",
+      "Display": "1823 nits max brightness (measured)",
+      "Loudspeaker": "-25.2 LUFS (Very good)",
+      "batlife2": "Active use score 18:49h"
+    }
+  },
+  {
+    "Phone Name": "Google Pixel 9 Pro Fold",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 38, 39, 40, 41, 42, 46, 48, 66, 71",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 66, 70, 71, 75, 76, 77, 78, 79, 257, 258, 260, 261 SA/NSA/Sub6/mmWave",
+      "speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "year": "2024, August 13",
+      "status": "Available. Released 2024, September 04"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 155.2 x 150.2 x 5.1 mmFolded: 155.2 x 77.1 x 10.5 mm",
+      "weight": "257 g (9.07 oz)",
+      "build": "Glass front (Gorilla Glass Victus 2) (folded), plastic front (unfolded), glass back (Gorilla Glass Victus 2), aluminum frame",
+      "sim": "Nano-SIM + eSIM",
+      "bodyother": "IPX8 water resistant"
+    },
+    "Display": {
+      "displaytype": "Foldable LTPO OLED, 120Hz, HDR10+, 1600 nits (HBM), 2700 nits (peak)",
+      "displaysize": "8.0 inches, 207.4 cm2 (~89.0% screen-to-body ratio)",
+      "displayresolution": "2076 x 2152 pixels, 1:1 ratio (~373 ppi density)",
+      "displayother": "Cover display: OLED, 120Hz, HDR, Corning Gorilla Glass Victus 2 6.3 inches, 1080 x 2424 pixels, 20:9 ratio, 422 ppi 1800 nits (HBM), 2700 nits (peak)"
+    },
+    "Platform": {
+      "os": "Android 14, upgradable to Android 15, up to 7 major Android upgrades",
+      "chipset": "Google Tensor G4 (4 nm)",
+      "cpu": "Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.92 GHz Cortex-A520)",
+      "gpu": "Mali-G715 MC7"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 16GB RAM, 512GB 16GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.7, 25mm (wide), 1/2.0\", 0.8µm, dual pixel PDAF, OIS 10.8 MP, f/3.1, 112mm (telephoto), 1/3.2\", dual pixel PDAF, OIS, 5x optical zoom 10.5 MP, f/2.2, 127˚ (ultrawide), 1/3.4\", PDAF",
+      "cam1features": "Multi-zone Laser AF, LED flash, Pixel Shift, Ultra-HDR, panorama, Best Take, Zoom Enhance",
+      "cam1video": "4K@24/30/60fps, 1080p@24/30/60/120/240fps, 10-bit HDR, gyro-EIS, OIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "10 MP, f/2.2, 23mm (wide), 1/3.94\", PDAF Cover camera: 10 MP, f/2.2, 23mm (wide), 1/3.94\", PDAF",
+      "cam2features": "HDR, panorama",
+      "cam2video": "4K@30/60fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band",
+      "bluetooth": "5.3, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support Satellite SOS service Circle to Search"
+    },
+    "Battery": {
+      "batdescription1": "4650 mAh",
+      "Charging": "21W wired 7.5W wireless Bypass charging (w/ \"Limit to 80%\" option enabled)"
+    },
+    "Misc": {
+      "colors": "Obsidian, Porcelain",
+      "models": "GGH2X, GC15S",
+      "sar-eu": "0.98 W/kg (head) 1.39 W/kg (body)",
+      "price": "$ 1,199.99 / € 1,178.96 / £ 999.99"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1222228 (v10) GeekBench: 4783 (v6) 3DMark: 2620 (Wild Life Extreme)",
+      "Display": "2199 nits max brightness (measured)",
+      "Loudspeaker": "-24.1 LUFS (Very good)",
+      "batlife2": "Active use score 11:54h"
+    }
+  },
+  {
+    "Phone Name": "Huawei Mate X3",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41",
+      "speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "year": "2023, March 23",
+      "status": "Available. Released 2023, April 08"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 156.9 x 141.5 x 5.3 mmFolded: 156.9 x 72.4 x 11.1 mm",
+      "weight": "239 g or 241 g (8.43 oz)",
+      "build": "Glass front, glass back or eco leather back, aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IPX8 dust/water resistant (up to 1.5m for 30 min) Stylus support (both displays)"
+    },
+    "Display": {
+      "displaytype": "Foldable OLED, 1B colors, 120Hz",
+      "displaysize": "7.85 inches, 197.5 cm2 (~88.9% screen-to-body ratio)",
+      "displayresolution": "2224 x 2496 pixels (~426 ppi density)",
+      "displayprotection": "Kunlun Glass (cover display only)",
+      "displayother": "Cover display: OLED, 120Hz, 6.4 inches, 1080 x 2504 pixels"
+    },
+    "Platform": {
+      "os": "HarmonyOS 3.1 (China), EMUI 13.1 (Europe), no Google Play Services",
+      "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 4G (4 nm)",
+      "cpu": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x2.0 GHz Cortex-A510)",
+      "gpu": "Adreno 730"
+    },
+    "Memory": {
+      "memoryslot": "Nano Memory (uses shared SIM slot)",
+      "internalmemory": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+      "memoryother": "UFS"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, 23mm (wide), PDAF, OIS 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom 13 MP, f/2.2, 13mm (ultrawide), AF",
+      "cam1features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+      "cam1video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "8 MP, f/2.4, (wide) Cover camera: 8 MP, f/2.4, (wide)",
+      "cam2features": "HDR, panorama",
+      "cam2video": "4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS (B1I+B1c+B2a), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC",
+      "nfc": "Yes; NFC-SIM, HCE",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, DisplayPort 1.2, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer, altimeter",
+      "featuresother": "BDS Satellite Messaging - China only"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4800 mAh (Global)Si/C Li-Ion 5060 mAh (China only)",
+      "Charging": "66W wired 50W wireless 7.5W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Black, White, Violet, Dark Green, Gold",
+      "models": "ALT-AL00, ALT-L29",
+      "price": "About 4650 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 993592 (v9) GeekBench: 4283 (v5.5), 4512 (v6) GFXBench: 41fps (ES 3.1 onscreen)",
+      "Display": "926 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-26.3 LUFS (Good)",
+      "batlife": "Endurance rating 81h"
+    }
+  },
+  {
+    "Phone Name": "Samsung Galaxy Fold",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 18, 19, 20, 25, 26, 28, 38, 39, 40, 41, 46, 66, 71 - SM-F900U",
+      "speed": "HSPA 42.2/5.76 Mbps, LTE (6CA) Cat18 1200/150 Mbps"
+    },
+    "Launch": {
+      "year": "2019, February",
+      "status": "Available. Released 2019, September"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 160.9 x 117.9 x 6.9 mm Folded: 160.9 x 62.9 x 15.5 mm",
+      "weight": "276 g (9.74 oz)",
+      "build": "Glass front (folded), plastic front (unfolded), glass back, aluminum frame",
+      "sim": "Nano-SIM + eSIM"
+    },
+    "Display": {
+      "displaytype": "Foldable Dynamic AMOLED, HDR10+",
+      "displaysize": "7.3 inches, 162.6 cm2 (~85.7% screen-to-body ratio)",
+      "displayresolution": "1536 x 2152 pixels (~362 ppi density)",
+      "displayother": "Cover display: Super AMOLED, 4.6 inches, 720 x 1680 pixels, 21:9 ratio"
+    },
+    "Platform": {
+      "os": "Android 9.0 (Pie), upgradable to Android 12, One UI 4",
+      "chipset": "Qualcomm SM8150 Snapdragon 855 (7 nm)",
+      "cpu": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+      "gpu": "Adreno 640"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "512GB 12GB RAM",
+      "memoryother": "UFS 3.0"
+    },
+    "Main Camera": {
+      "cam1modules": "12 MP, f/1.5-2.4, 27mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS 12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom 16 MP, f/2.2, 12mm (ultrawide), 1/3.1\", 1.0µm",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "4K@60fps, 1080p@60/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10"
+    },
+    "Selfie camera": {
+      "cam2modules": "10 MP, f/2.2, 26mm (wide), 1/3\", 1.22µm 8 MP, f/1.9, 24mm (wide), 1.22µm, depth sensor Cover camera: 10 MP, f/2.2, 26mm (wide), 1/3\", 1.22µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30/60fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "32-bit/384kHz audio Tuned by AKG"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.0, A2DP, LE, aptX HD",
+      "gps": "GPS, GLONASS, GALILEO, BDS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "ANT+ Samsung DeX (desktop experience support)"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4380 mAh, non-removable",
+      "Charging": "15W wired 15W wireless 4.5W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Space Silver, Cosmos Black, Martian Green, Astro Blue",
+      "models": "SM-F900F, SM-F9000, SM-F900W, SM-F900U, SM-F900N, SM-F900U1",
+      "sar-us": "0.41 W/kg (head) 1.39 W/kg (body)",
+      "sar-eu": "0.49 W/kg (head) 1.58 W/kg (body)",
+      "price": "About 1750 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 363016 (v7) GeekBench: 11028 (v4.4) GFXBench: 32fps (ES 3.1 onscreen unfolded)",
+      "Display": "557 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "Voice 70dB / Noise 73dB / Ring 90dB",
+      "batlife": "Endurance rating 90h"
+    }
+  },
+  {
+    "Phone Name": "Huawei Mate Xs 2",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41",
+      "speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "year": "2022, April 28",
+      "status": "Available. Released 2022, May 07"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 156.5 x 139.3 x 5.4 mmFolded: 156.5 x 75.5 x 11.1 mm",
+      "weight": "255 g / 257 g (8.99 oz)",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "Foldable OLED, 1B colors, 120Hz",
+      "displaysize": "7.8 inches, 195.8 cm2 (~89.8% screen-to-body ratio)",
+      "displayresolution": "2200 x 2480 pixels (~424 ppi density)",
+      "displayother": "Folded cover display: OLED, 6.5 inches, 1176 x 2480 pixels"
+    },
+    "Platform": {
+      "os": "EMUI 12, no Google Play Services (International); HarmonyOS 2.0 (China)",
+      "chipset": "Qualcomm SM8350 Snapdragon 888 4G (5 nm)",
+      "cpu": "Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+      "gpu": "Adreno 660"
+    },
+    "Memory": {
+      "memoryslot": "Nano Memory (uses shared SIM slot)",
+      "internalmemory": "256GB 8GB RAM, 512GB 8GB RAM, 512GB 12GB RAM",
+      "memoryother": "UFS"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, (wide), PDAF 8 MP, f/2.4, 81mm (telephoto), PDAF, OIS, 3x optical zoom 13 MP, f/2.2, 120˚ (ultrawide)",
+      "cam1features": "Laser AF, color spectrum sensor, Dual-LED dual-tone flash, panorama, HDR",
+      "cam1video": "4K@30/60fps, 1080p@30/240fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "10.7 MP, f/2.2",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30/240fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5)",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4600 mAh (w/ 8GB RAM)Li-Po 4880 mAh (w/ 12GB RAM)",
+      "Charging": "66W wired 5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black, White, Purple",
+      "models": "PAL-AL00, PAL-LX9",
+      "price": "About 2000 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 641608 (v9) GeekBench: 3131 (v5.1) GFXBench: 28fps (ES 3.1 onscreen)",
+      "Display": "725 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-25.8 LUFS (Very good)",
+      "batlife": "Endurance rating 49h"
+    }
   }
 ]
