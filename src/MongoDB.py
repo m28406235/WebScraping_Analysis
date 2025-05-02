@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from Regex import get_processed_phone_data  # import the Data
+from data_processing import get_processed_phone_data
 
 # MongoDB connection
 cluster = MongoClient("mongodb+srv://amrm08018:ps3Agk06kUVZTh8A@cluster0.qbbbzxv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -7,7 +7,7 @@ db = cluster["Web_Scraping"] # database name
 collection = db["Phones"] # collection name
 
 # check null values
-phone_data = get_processed_phone_data()  # get processed phone data
+phone_data=get_processed_phone_data()
 print(phone_data.isnull().sum())
 
 # dataframe to dictionary
