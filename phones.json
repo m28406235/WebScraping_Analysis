@@ -1,0 +1,2352 @@
+[
+  {
+    "Phone Name": "vivo X70 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 9, 12, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41 - International",
+      "net5g": "1, 3, 5, 7, 28, 40, 41, 78, 79 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2021, September 09",
+      "status": "Available. Released 2021, September 17"
+    },
+    "Body": {
+      "dimensions": "158.3 x 73.2 x 8 mm (6.23 x 2.88 x 0.31 in)",
+      "weight": "183/184/185/186 g (6.46 oz)",
+      "build": "Glass front (Schott Xensation Up), glass back, aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 120Hz, HDR10+, 1300 nits (peak)",
+      "displaysize": "6.56 inches, 104.6 cm2 (~90.3% screen-to-body ratio)",
+      "displayresolution": "1080 x 2376 pixels (~398 ppi density)",
+      "displayprotection": "Schott Xensation Up"
+    },
+    "Platform": {
+      "os": "Android 11, upgradable to Android 14, Funtouch OS 14 (International), OriginOS (China)",
+      "chipset": "Mediatek Dimensity 1200 (6 nm) - InternationalExynos 1080 (5 nm) - China",
+      "cpu": "Octa-core (1x3.0 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) - InternationalOcta-core (1x2.8 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) - China",
+      "gpu": "Mali-G77 MC9 - InternationalMali-G78 MP10 - China"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 256GB 16GB RAM, 512GB 12GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, gimbal OIS 8 MP, f/3.4, 125mm (periscope telephoto), 1/4.4\", 1.0µm, PDAF, OIS, 5x optical zoom 12 MP, f/2.0, 50mm (telephoto), 1/2.93\", 1.22µm, PDAF, 2x optical zoom 12 MP, f/2.2, 16mm, 116˚ (ultrawide), 1/3.1\", 1.12µm, AF",
+      "cam1features": "Laser AF, color spectrum sensor, Zeiss optics, Zeiss T* lens coating, Pixel Shift, dual-LED dual-tone flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, HDR10+"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No",
+      "optionalother": "32-bit/192kHz Hi-Res audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS, NavIC",
+      "nfc": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "4450 mAh",
+      "Charging": "44W wired 5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Cosmic Black, Aurora Dawn, White",
+      "models": "V2134A, V2105",
+      "price": "About 1040 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 694499 (v9) GeekBench: 2956 (v5.1) GFXBench: 40fps (ES 3.1 onscreen)",
+      "Display": "993 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-27.5 LUFS (Good)",
+      "batlife": "Endurance rating 123h"
+    }
+  },
+  {
+    "Phone Name": "Oppo Find N3",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41, 66",
+      "net5g": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 77, 78, 79 SA/NSA",
+      "speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "year": "2023, October 19",
+      "status": "Available. Released 2023, October 27"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 153.4 x 143.1 x 5.8 mmFolded: 153.4 x 73.3 x 11.7 mm",
+      "weight": "239 g or 245 g (8.43 oz)",
+      "build": "Glass front (Ceramic Guard) (folded), plastic front (unfolded), glass back or eco leather back, aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IPX4 splash resistant"
+    },
+    "Display": {
+      "displaytype": "Foldable LTPO3 OLED, 1B colors, Dolby Vision, 120Hz, 2800 nits (peak)",
+      "displaysize": "7.82 inches, 196.7 cm2 (~89.6% screen-to-body ratio)",
+      "displayresolution": "2268 x 2440 pixels (~426 ppi density)",
+      "displayother": "Cover display: LTPO3 OLED, 1B colors, Dolby Vision, 120Hz, 2800 nits (peak) 6.31 inches, 1116 x 2484 pixels, 431 ppi, Ceramic Guard"
+    },
+    "Platform": {
+      "os": "Android 13, upgradable to Android 14, ColorOS 14",
+      "chipset": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
+      "cpu": "Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "gpu": "Adreno 740"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 16GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.7, 24mm (wide), 1/1.43\", 1.12µm, multi-directional PDAF, OIS 64 MP, f/2.6, 70mm (telephoto), 1/2.0\", 0.7µm, PDAF, OIS, 3x optical zoom 48 MP, f/2.2, 14mm, 114˚ (ultrawide), 1/2.0\", 0.8µm, PDAF",
+      "cam1features": "Hasselblad Color Calibration, color spectrum sensor, LED flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60/240fps gyro-EIS, HDR10+, Dolby Vision"
+    },
+    "Selfie camera": {
+      "cam2modules": "20MP, f/2.2, 20mm (ultrawide), 1/4.0\", 0.7µm Cover camera: 32MP, f/2.4, 22mm (ultrawide), 1/3.14\", 0.7µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (Dolby Atmos enhanced)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band",
+      "bluetooth": "5.3, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5)",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, dual gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4805 mAh",
+      "Charging": "67W wired, PD, 35% in 10 min Reverse wired"
+    },
+    "Misc": {
+      "colors": "Black, Green, Gold, Red",
+      "models": "CPH2499, PHN110",
+      "price": "About 1650 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1417837 (v10) GeekBench: 5166 (v6) GFXBench: 50fps (ES 3.1 onscreen)",
+      "Display": "1240 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-25.3 LUFS (Very good)",
+      "batlife2": "Active use score 11:36h"
+    }
+  },
+  {
+    "Phone Name": "OnePlus Open",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 38, 39, 40, 41, 46, 48, 66, 71",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 30, 38, 40, 41, 66, 71, 75, 77, 78 SA/NSA",
+      "speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "year": "2023, October 19",
+      "status": "Available. Released 2023, October 26"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 153.4 x 143.1 x 5.8 mmFolded: 153.4 x 73.3 x 11.7 mm",
+      "weight": "239 g or 245 g (8.43 oz)",
+      "build": "Glass front (Ceramic Guard) (folded), plastic front (unfolded), glass back or eco leather back, aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+      "bodyother": "IPX4 splash resistant"
+    },
+    "Display": {
+      "displaytype": "Foldable LTPO3 Flexi-fluid AMOLED, 1B colors, Dolby Vision, 120Hz, 2800 nits (peak)",
+      "displaysize": "7.82 inches, 196.7 cm2 (~89.6% screen-to-body ratio)",
+      "displayresolution": "2268 x 2440 pixels (~426 ppi density)",
+      "displayother": "Cover display: LTPO3 Super Fluid OLED, 1B colors, Dolby Vision, 120Hz, 2800 nits (peak) 6.31 inches, 1116 x 2484 pixels, 431 ppi, Ceramic Guard"
+    },
+    "Platform": {
+      "os": "Android 13, upgradable to Android 15, OxygenOS 15",
+      "chipset": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
+      "cpu": "Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "gpu": "Adreno 740"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.7, 24mm (wide), 1/1.43\", 1.12µm, multi-directional PDAF, OIS 64 MP, f/2.6, 70mm (telephoto), 1/2.0\", 0.7µm, PDAF, OIS, 3x optical zoom 48 MP, f/2.2, 14mm, 114˚ (ultrawide), 1/2.0\", 0.8µm, PDAF",
+      "cam1features": "Hasselblad Color Calibration, LED flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60/120/240/480fps gyro-EIS, HDR10+, Dolby Vision"
+    },
+    "Selfie camera": {
+      "cam2modules": "20MP, f/2.2, 20mm (ultrawide), 1/4.0\", 0.7µm Cover camera: 32MP, f/2.4, 22mm (ultrawide), 1/3.14\", 0.7µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (Dolby Atmos enhanced)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band",
+      "bluetooth": "5.3, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS, BDS, GALILEO (E1+E5a), QZSS",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4805 mAh",
+      "Charging": "67W wired, PD, 100% in 42 min Reverse wired"
+    },
+    "Misc": {
+      "colors": "Emerald Dusk, Voyager Black, Apex Edition",
+      "models": "CPH2551",
+      "sar-us": "0.98 W/kg (head) 0.76 W/kg (body)",
+      "price": "$ 1,343.87 / € 1,199.00 / ₹ 149,998"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 968130 (v9), 1349633 (v10) GeekBench: 3969 (v5.5), 4169 (v6.0) GFXBench: 51fps (ES 3.1 onscreen)",
+      "Display": "1238 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-28.2 LUFS (Average)",
+      "batlife2": "Active use score 11:59h",
+      "batlife": "Endurance rating 96h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Black Shark 4",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41 - International, China",
+      "net5g": "1, 3, 8, 28, 41, 77, 78, 79 SA/NSA - China",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2021, March 23",
+      "status": "Available. Released 2021, March 30"
+    },
+    "Body": {
+      "dimensions": "163.8 x 76.4 x 9.9 mm (6.45 x 3.01 x 0.39 in)",
+      "weight": "210 g (7.41 oz)",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "Physical pop-up gaming triggers"
+    },
+    "Display": {
+      "displaytype": "Super AMOLED, 144Hz, HDR10+, 1300 nits (peak)",
+      "displaysize": "6.67 inches, 107.4 cm2 (~85.8% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+      "displayother": "Always-on display"
+    },
+    "Platform": {
+      "os": "Android 11, Joy UI 12.5",
+      "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
+      "cpu": "Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+      "gpu": "Adreno 650"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 128GB 8GB RAM, 128GB 12GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0\", 1.12µm 5 MP, f/2.4, (macro), AF",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60/240fps, 1080p@960fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "20 MP, f/2.0, (wide), 0.8µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes",
+      "optionalother": "24-bit/192kHz Hi-Res audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive",
+      "gps": "GPS, GLONASS, GALILEO, QZSS, BDS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4500 mAh",
+      "Charging": "120W wired, 100% in 17 min"
+    },
+    "Misc": {
+      "colors": "Mirror Black, Pale Grey, Black, Blue, Silver",
+      "models": "SHARK PRS-H0, SHARK PRS-A0, SHARK KSR-A0",
+      "price": "About 930 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 617456 (v8) GeekBench: 3448 (v5.1) GFXBench: 54fps (ES 3.1 onscreen)",
+      "Display": "694 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-27.4 LUFS (Good)",
+      "batlife": "Endurance rating 96h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 15 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66 - A3102",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3102",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2023, September 12",
+      "status": "Available. Released 2023, September 22"
+    },
+    "Body": {
+      "dimensions": "146.6 x 70.6 x 8.3 mm (5.77 x 2.78 x 0.33 in)",
+      "weight": "187 g (6.60 oz)",
+      "build": "Glass front, glass back, titanium frame (grade 5)",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "displaysize": "6.1 inches, 91.3 cm2 (~88.2% screen-to-body ratio)",
+      "displayresolution": "1179 x 2556 pixels, 19.5:9 ratio (~461 ppi density)",
+      "displayprotection": "Ceramic Shield glass",
+      "displayother": "Always-On display"
+    },
+    "Platform": {
+      "os": "iOS 17, upgradable to iOS 18.4",
+      "chipset": "Apple A17 Pro (3 nm)",
+      "cpu": "Hexa-core (2x3.78 GHz + 4x2.11 GHz)",
+      "gpu": "Apple GPU (6-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 77mm (telephoto), 1/3.5\", 1.0µm, PDAF, OIS, 3x optical zoom 12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video, stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR, Dolby Vision HDR",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support (gen2 chip) Emergency SOS, Messages and Find My via satellite"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3274 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.2 update 4.5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black Titanium, White Titanium, Blue Titanium, Natural Titanium",
+      "models": "A2848, A3101, A3102, A3104, iPhone16,1",
+      "sar-us": "1.14 W/kg (head) 1.16 W/kg (body)",
+      "sar-eu": "0.98 W/kg (head) 0.98 W/kg (body)",
+      "price": "$ 549.47 / € 816.69 / £ 639.95"
+    },
+    "Tests": {
+      "Display": "1786 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-26.4 LUFS (Good)",
+      "batlife2": "Active use score 12:58h",
+      "batlife": "Endurance rating 86h"
+    }
+  },
+  {
+    "Phone Name": "Realme GT 7 Pro",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 66 - International",
+      "net5g": "1, 2, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 77, 78 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, November 04",
+      "status": "Available. Released 2024, November 04"
+    },
+    "Body": {
+      "dimensions": "162.5 x 76.9 x 8.6 mm (6.40 x 3.03 x 0.34 in)",
+      "weight": "222.8 g (7.87 oz)",
+      "build": "Glass front (Gorilla Glass 7i), aluminum frame, glass back (Panda Glass)",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "LTPO AMOLED, 1B colors, 120Hz, HDR10+, Dolby Vision, 1000 nits (typ), 2000 nits (HBM), 6500 nits (peak)",
+      "displaysize": "6.78 inches, 111.7 cm2 (~89.4% screen-to-body ratio)",
+      "displayresolution": "1264 x 2780 pixels (~450 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 7i"
+    },
+    "Platform": {
+      "os": "Android 15, Realme UI 6.0",
+      "chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "cpu": "Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+      "gpu": "Adreno 830"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 256GB 16GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS 50 MP, f/2.7, 73mm (telephoto), 1/1.95\", 0.8µm, multi-directional PDAF, OIS, 3x optical zoom 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+      "cam1features": "Color spectrum sensor, Dual-LED flash, HDR, panorama",
+      "cam1video": "8K@24fps, 4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "16 MP, f/2.5, 25mm (wide), 1/3.09\", 1.0µm",
+      "cam2features": "Panorama",
+      "cam2video": "1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+      "bluetooth": "5.4, A2DP, LE",
+      "gps": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+      "nfc": "Yes, 360˚",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Si/C Li-Ion 6500 mAh (Global)Si/C Li-Ion 5800 mAh (India only)",
+      "Charging": "120W wired, 13 min to 50%, 37 min to 100% 120W wired, 30 min to 100% - India only version"
+    },
+    "Misc": {
+      "colors": "Mars Orange, Galaxy Grey, White",
+      "models": "RMX5010, RMX5011",
+      "price": "$ 874.83 / € 719.99 / £ 654.98 / ₹ 52,998"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 2746604 (v10) GeekBench: 9509 (v6) 3DMark: 6360 (Wild Life Extreme)",
+      "Display": "2336 nits max brightness (measured)",
+      "Loudspeaker": "-25.3 LUFS (Very good)",
+      "batlife2": "Active use score 17:31h"
+    }
+  },
+  {
+    "Phone Name": "ZTE nubia RedMagic 10 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41, 42, 66",
+      "net5g": "1, 2, 3, 5, 7, 8, 20, 26, 28, 38, 40, 41, 66, 71, 77, 78 SA/NSA",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, November 13",
+      "status": "Available. Released 2024, November 18"
+    },
+    "Body": {
+      "dimensions": "163.4 x 76.1 x 8.9 mm (6.43 x 3.00 x 0.35 in)",
+      "weight": "229 g (8.08 oz)",
+      "build": "Glass front, aluminum frame, glass back",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "Pressure sensitive zones (520Hz touch-sensing) Built-in cooling fan Aviation aluminum middle frame"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 1B colors, 144Hz, 2000 nits (peak)",
+      "displaysize": "6.85 inches, 113.7 cm2 (~91.4% screen-to-body ratio)",
+      "displayresolution": "1216 x 2688 pixels (~431 ppi density)",
+      "displayprotection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "os": "Android 15, up to 1 major Android update and 2 Redmagic OS updates, Redmagic OS 10",
+      "chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "cpu": "Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+      "gpu": "Adreno 830"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 24GB RAM",
+      "memoryother": "UFS 4.1 Pro"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.9, (wide), 1/1.5\", 1.0µm, PDAF, OIS 50 MP, f/2.2, (ultrawide), 1/2.88\", 0.61µm 2 MP, f/2.4, (macro)",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "16 MP, f/2.0, (wide), 1.12µm, under display",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes",
+      "optionalother": "32-bit/384kHz Hi-Res audio Snapdragon Sound"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, tri-band, Wi-Fi Direct",
+      "bluetooth": "5.4, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, BDS, GALILEO",
+      "nfc": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, OTG, accessory connector, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Si/C Li-Ion 7050 mAh (Global)Si/C Li-Ion 6500 mAh (China only)",
+      "Charging": "100W wired - International 80W wired - China only version"
+    },
+    "Misc": {
+      "colors": "Moonlight (Transparent Silver Deuterium), Dusk (Transparent Dark Knight), Shadow (Dark Knight), White Knight, Lightspeed",
+      "price": "$ 749.00 / € 749.00 / £ 689.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 2687260 (v10) GeekBench: 9833 (v6) 3DMark: 5820 (Wild Life Extreme)",
+      "Display": "1596 nits max brightness (measured)",
+      "Loudspeaker": "-24.5 LUFS (Very good)",
+      "batlife2": "Active use score 17:13h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi 14 Ultra",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 40, 41, 42, 48, 66 - International",
+      "net5g": "1, 2, 3, 5, 7, 8, 20, 28, 38, 40, 41, 48, 66, 77, 78, 79 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, February 22",
+      "status": "Available. Released 2024, February 22"
+    },
+    "Body": {
+      "dimensions": "161.4 x 75.3 x 9.2 mm (6.35 x 2.96 x 0.36 in)",
+      "weight": "219.8 / 224.4 / 229.5 g (7.76 oz)",
+      "build": "Glass front (Shield Glass), glass back or silicone polymer back (eco leather), titanium frame (grade 5) or aluminum alloy frame",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "LTPO AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 1000 nits (typ), 3000 nits (peak)",
+      "displaysize": "6.73 inches, 108.9 cm2 (~89.6% screen-to-body ratio)",
+      "displayresolution": "1440 x 3200 pixels, 20:9 ratio (~522 ppi density)",
+      "displayprotection": "Xiaomi Shield Glass"
+    },
+    "Platform": {
+      "os": "Android 14, up to 4 major Android upgrades, HyperOS",
+      "chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+      "cpu": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "gpu": "Adreno 750"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.6-f/4.0, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS 50 MP, f/1.8, 75mm (telephoto), 1/2.51\", 0.7µm, dual pixel PDAF (10cm - ∞), OIS, 3.2x optical zoom 50 MP, f/2.5, 120mm (periscope telephoto), 1/2.51\", 0.7µm, dual pixel PDAF (30cm - ∞), OIS, 5x optical zoom 50 MP, f/1.8, 12mm, 122˚ (ultrawide), 1/2.51\", 0.7µm, dual pixel PDAF TOF 3D, (depth)",
+      "cam1features": "Laser AF, color spectrum sensor, Leica lenses, Dual-LED flash, HDR, panorama, 67mm filter ring holder (optional)",
+      "cam1video": "8K@24/30fps, 4K@24/30/60/120fps, 1080p@30/60/120/240/480/960/1920fps, gyro-EIS, Dolby Vision HDR 10-bit rec. (4K@60fps, 1080p)"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.0, 22mm (wide), 1/3.14\", 0.7µm",
+      "cam2features": "HDR, panorama",
+      "cam2video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+      "bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC",
+      "gps": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5)",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2 Gen 2, DisplayPort, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, proximity, gyro, compass, barometer",
+      "featuresother": "Two-way satellite communication"
+    },
+    "Battery": {
+      "batdescription1": "5000 mAh (Global)5300 mAh (China only)",
+      "Charging": "90W wired, PD3.0, QC4, 100% in 33 min 80W wireless, 100% in 46 min 10W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Black, Blue, White, Titanium Gray",
+      "models": "24031PN0DC, 24030PN60G",
+      "sar-eu": "1.00 W/kg (head) 1.00 W/kg (body)",
+      "price": "$ 1,099.50 / € 888.01 / £ 734.99"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 2014262 (v10) GeekBench: 7060 (v6) 3DMark: 4977 (Wild Life Extreme)",
+      "Display": "1281 nits max brightness (measured)",
+      "Loudspeaker": "-25.6 LUFS (Very good)",
+      "batlife2": "Active use score 11:25h"
+    }
+  },
+  {
+    "Phone Name": "Oppo Find X8",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 42, 66 - International",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 28, 38, 40, 41, 66, 77, 78 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, October 24",
+      "status": "Available. Released 2024, October 30"
+    },
+    "Body": {
+      "dimensions": "157.4 x 74.3 x 7.9 mm (6.20 x 2.93 x 0.31 in)",
+      "weight": "193 g (6.81 oz)",
+      "build": "Glass front (Gorilla Glass 7i), glass back (Gorilla Glass 7i), aluminum frame",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM",
+      "bodyother": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 1B colors, 120Hz, Dolby Vision, HDR10+, 800 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+      "displaysize": "6.59 inches, 105.6 cm2 (~90.3% screen-to-body ratio)",
+      "displayresolution": "1256 x 2760 pixels (~460 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 7i",
+      "displayother": "Ultra HDR image support"
+    },
+    "Platform": {
+      "os": "Android 15, up to 5 major Android upgrades, ColorOS 15",
+      "chipset": "Mediatek Dimensity 9400 (3 nm)",
+      "cpu": "Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)",
+      "gpu": "Immortalis-G925"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 256GB 16GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS 50 MP, f/2.6, 73mm (periscope telephoto), 1/1.95\", 0.61µm, 3x optical zoom, multi-directional PDAF, OIS 50 MP, f/2.0, 15mm, 120˚ (ultrawide), 1/2.75\", 0.64µm, multi-directional PDAF",
+      "cam1features": "Laser AF, color spectrum sensor, Hasselblad Color Calibration, LED flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60/240fps; gyro-EIS; HDR, 10‑bit video, Dolby Vision"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8µm",
+      "cam2features": "Panorama",
+      "cam2video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
+      "gps": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC (L5)",
+      "nfc": "Yes; NFC-SIM, HCE, eSE, eID",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.0 (Global), 2.0 (China), OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+      "featuresother": "Circle to Search"
+    },
+    "Battery": {
+      "batdescription1": "Si/C Li-Ion 5630 mAh",
+      "Charging": "80W wired, PD 55W, PPS, UFCS 50W wireless 10W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Star Grey, Space Black, Shell Pink, Blue",
+      "models": "CPH2651, PKB110",
+      "price": "₹ 61,999"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 2751909 (v10) GeekBench: 8885 (v6) 3DMark: 6513 (Wild Life Extreme)",
+      "Display": "1364 nits max brightness (measured)",
+      "Loudspeaker": "-24.0 LUFS (Very good)",
+      "batlife2": "Active use score 13:58h"
+    }
+  },
+  {
+    "Phone Name": "Motorola Razr 50",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 43, 66, 71",
+      "net5g": "1, 2, 3, 5, 7, 8, 20, 26, 28, 38, 40, 41, 66, 71, 77, 78 SA/NSA/Sub6",
+      "speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "year": "2024, June 25",
+      "status": "Available. Released 2024, June 25"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 171.3 x 74 x 7.3 mm Folded: 88.1 x 74 x 15.9 mm",
+      "weight": "188.4 g (6.63 oz)",
+      "build": "Plastic front (unfolded), glass front (folded, Gorilla Glass Victus), silicone polymer back (eco leather), aluminum frame (6000 series), hinge (stainless steel)",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM",
+      "bodyother": "IPX8 water resistant (up to 1.5m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "Foldable LTPO AMOLED, 1B colors, 120Hz, HDR10+, 3000 nits (peak)",
+      "displaysize": "6.9 inches, 107.6 cm2 (~84.9% screen-to-body ratio)",
+      "displayresolution": "1080 x 2640 pixels (~413 ppi density)",
+      "displayother": "Second external AMOLED, 1B colors, 90Hz, HDR10+, 1700 nits (peak) 3.6 inches, 1056 x 1066 pixels, 413 ppi, Gorilla Glass Victus"
+    },
+    "Platform": {
+      "os": "Android 14",
+      "chipset": "Mediatek Dimensity 7300X (4 nm)",
+      "cpu": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G615 MC2"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 8GB RAM, 512GB 12GB RAM",
+      "memoryother": "UFS 2.2"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.7, 25mm (wide), 1/1.95\", 0.8µm, dual pixel PDAF, OIS 13 MP, f/2.2, 120˚ (ultrawide), 1/3.0\", 1.12µm, AF",
+      "cam1features": "LED flash, panorama, HDR",
+      "cam1video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.4, 25mm (wide), 1/3.14\", 0.7µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band or tri-band (region dependent)",
+      "bluetooth": "5.4, A2DP, LE",
+      "gps": "GPS, GLONASS, BDS, GALILEO, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), gyro, accelerometer, proximity, compass, barometer"
+    },
+    "Battery": {
+      "batdescription1": "4200 mAh",
+      "Charging": "30W wired 15W wireless"
+    },
+    "Misc": {
+      "colors": "Koala Grey (Steel Wool), Beach Sand (Pumice Stone), Spritz Orange (Arabesque)",
+      "price": "€ 547.50 / £ 468.99 / ₹ 44,999"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 657381 (v10) GeekBench: 3016 (v5) 3DMark: 856 (Wild Life Extreme)",
+      "Display": "1289 nits max brightness (measured)",
+      "Loudspeaker": "-23.5 LUFS (Very good)",
+      "batlife2": "Active use score 11:46h"
+    }
+  },
+  {
+    "Phone Name": "Realme 6 Pro",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 20, 28, 38, 40, 41 - Global",
+      "speed": "HSPA 42.2/11.5 Mbps, LTE (2CA) Cat6 300/150 Mbps"
+    },
+    "Launch": {
+      "year": "2020, March 05",
+      "status": "Available. Released 2020, March 13"
+    },
+    "Body": {
+      "dimensions": "163.8 x 75.8 x 8.9 mm (6.45 x 2.98 x 0.35 in)",
+      "weight": "202 g (7.13 oz)",
+      "build": "Glass front (Gorilla Glass 5), glass back, plastic frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "IPS LCD, 90Hz, 480 nits (typ)",
+      "displaysize": "6.6 inches, 105.2 cm2 (~84.7% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~399 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 10, upgradable to Android 11, Realme UI 2.0",
+      "chipset": "Qualcomm SM7125 Snapdragon 720G (8 nm)",
+      "cpu": "Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver)",
+      "gpu": "Adreno 618"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (dedicated slot)",
+      "internalmemory": "64GB 6GB RAM, 128GB 6GB RAM, 128GB 8GB RAM",
+      "memoryother": "UFS 2.1"
+    },
+    "Main Camera": {
+      "cam1modules": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF 12 MP, f/2.5, 54mm (telephoto), 1/3.4\", 1.0µm, PDAF, 2x optical zoom 8 MP, f/2.3, 13mm (ultrawide), 1/4.0\", 1.12µm 2 MP, f/2.4, (macro)",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "4K@30fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "16 MP, f/2.1, 26mm (wide), 1/3.06\", 1.0µm 8 MP, f/2.2, 105˚ (ultrawide), 1/4.0\", 1.12µm",
+      "cam2features": "HDR, panorama",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes",
+      "optionalother": "24-bit/192kHz Hi-Res audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.1, A2DP, LE",
+      "gps": "GPS (L1+L5), GLONASS, BDS, NavIC",
+      "nfc": "Yes (market/region dependent)",
+      "radio": "FM radio",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "4300 mAh",
+      "Charging": "30W wired, 100% in 57 min"
+    },
+    "Misc": {
+      "colors": "Lightning Blue, Lightning Orange, Lightning Red",
+      "models": "RMX2061, RMX2063",
+      "sar-us": "1.19 W/kg (head) 0.92 W/kg (body)",
+      "price": "About 540 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 268785 (v8) GeekBench: 7027 (v4.4), 1666 (v5.1) GFXBench: 19fps (ES 3.1 onscreen)",
+      "Display": "1324:1 contrast ratio, 421 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-28.5 LUFS (Average)",
+      "batlife": "Endurance rating 107h"
+    }
+  },
+  {
+    "Phone Name": "Realme GT Neo 3",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 18, 19, 26, 28, 34, 38, 39, 40, 41",
+      "net5g": "1, 3, 5, 8, 28, 40, 41, 77, 78 SA/NSA",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2022, March 22",
+      "status": "Available. Released 2022, March 30"
+    },
+    "Body": {
+      "dimensions": "163.3 x 75.6 x 8.2 mm (6.43 x 2.98 x 0.32 in)",
+      "weight": "188 g (6.63 oz)",
+      "build": "Glass front (Gorilla Glass 5), plastic frame, glass back",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 1B colors, 120Hz, HDR10+",
+      "displaysize": "6.7 inches, 108.0 cm2 (~87.5% screen-to-body ratio)",
+      "displayresolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 12, upgradable to Android 13, Realme UI 3.0",
+      "chipset": "Mediatek Dimensity 8100 (5 nm)",
+      "cpu": "Octa-core (4x2.85 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G610 MC6"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, PDAF, OIS 8 MP, f/2.3, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm 2 MP, f/2.4, (macro)",
+      "cam1features": "Dual-LED dual-tone flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "16 MP, f/2.5, 26mm (wide), 1/3.09\", 1.0µm",
+      "cam2features": "HDR, panorama",
+      "cam2video": "1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "24-bit/192kHz Hi-Res audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.3, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS",
+      "nfc": "Yes (dual side)",
+      "radio": "No",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "5000 mAh",
+      "Charging": "80W wired, 100% in 32 min"
+    },
+    "Misc": {
+      "colors": "Plain Black (Asphalt Black), Silverstone White (Sprint White), Le Mans Blue (Nitro Blue)",
+      "models": "RMX3561, RMX3560",
+      "price": "$ 399.99 / € 508.52 / ₹ 20,990"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 819348 (v9) GeekBench: 4079 (v5.1) GFXBench: 53fps (ES 3.1 onscreen)",
+      "Display": "796 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-27.1 LUFS (Good)"
+    }
+  },
+  {
+    "Phone Name": "Fairphone 5",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 20, 28, 32, 38, 40, 41, 42, 48, 66, 71",
+      "net5g": "1, 2, 3, 5, 7, 8, 20, 28, 38, 41, 48, 66, 71, 77, 78 SA/NSA",
+      "speed": "HSPA, LTE (4CA), 5G"
+    },
+    "Launch": {
+      "year": "2023, August 30",
+      "status": "Available. Released 2023, September 14"
+    },
+    "Body": {
+      "dimensions": "161.6 x 75.8 x 9.6 mm (6.36 x 2.98 x 0.38 in)",
+      "weight": "212 g (7.48 oz)",
+      "build": "Glass front (Gorilla Glass 5), aluminum frame, plastic back",
+      "sim": "Nano-SIM + eSIM",
+      "bodyother": "IP55 dust protected and water resistant (low pressure water jets) MIL-STD-810H compliant"
+    },
+    "Display": {
+      "displaytype": "OLED, 90Hz, 880 nits (peak)",
+      "displaysize": "6.46 inches, 101.2 cm2 (~82.7% screen-to-body ratio)",
+      "displayresolution": "1224 x 2700 pixels (~459 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 13, upgradable to Android 14, up to 5 major Android upgrades",
+      "chipset": "Qualcomm QCM6490 (6 nm)",
+      "cpu": "Octa-core (1x2.7 GHz Cortex-A78 & 3x2.4 GHz Cortex-A78 & 4x1.9 GHz Cortex-A55)",
+      "gpu": "Adreno 643"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (dedicated slot)",
+      "internalmemory": "128GB 6GB RAM, 256GB 8GB RAM",
+      "memoryother": "UFS 2.2"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.9, (wide), 1/1.49\", 1.0µm, PDAF, OIS 50 MP, f/2.2, (ultrawide), 1/2.51\", 0.7µm, PDAF TOF 3D, (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR, panorama",
+      "cam1video": "4K@30fps, 1080p@30/60/120fps, 720p@240fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "50 MP, f/2.5, (wide), 1/2.76\", 0.74µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.0, OTG, DisplayPort"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 4200 mAh, removable",
+      "Charging": "30W wired, 50% in 20 min"
+    },
+    "Misc": {
+      "colors": "Matte Black, Sky Blue, Transparent",
+      "sar-eu": "0.40 W/kg (head) 0.85 W/kg (body)",
+      "price": "$ 715.00 / € 491.89 / £ 419.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 584498 (v9), 659615 (v10) GeekBench: 2886 (v5), 2958 (v6) GFXBench: 27fps (ES 3.1 onscreen)",
+      "Display": "772 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-31.0 LUFS (Below average)",
+      "batlife": "Endurance rating 88h"
+    }
+  },
+  {
+    "Phone Name": "Samsung Galaxy S23",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 66 - International",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 75, 77, 78 SA/NSA/Sub6 - International",
+      "speed": "HSPA, LTE (up to 7CA), 5G"
+    },
+    "Launch": {
+      "year": "2023, February 01",
+      "status": "Available. Released 2023, February 17"
+    },
+    "Body": {
+      "dimensions": "146.3 x 70.9 x 7.6 mm (5.76 x 2.79 x 0.30 in)",
+      "weight": "168 g (5.93 oz)",
+      "build": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min) Armor aluminum frame"
+    },
+    "Display": {
+      "displaytype": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (HBM), 1750 nits (peak)",
+      "displaysize": "6.1 inches, 90.1 cm2 (~86.8% screen-to-body ratio)",
+      "displayresolution": "1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density)",
+      "displayprotection": "Corning Gorilla Glass Victus 2",
+      "displayother": "Always-on display"
+    },
+    "Platform": {
+      "os": "Android 13, up to 4 major Android upgrades, One UI 6.1.1",
+      "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
+      "cpu": "Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "gpu": "Adreno 740"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+      "memoryother": "UFS 3.1 - 128GB only UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS 10 MP, f/2.4, 70mm (telephoto), 1/3.94\", 1.0µm, PDAF, OIS, 3x optical zoom 12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\" 1.4µm, Super Steady video",
+      "cam1features": "LED flash, auto-HDR, panorama",
+      "cam1video": "8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240fps, HDR10+, stereo sound rec., gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/2.2, 26mm (wide), 1/3.2\", 1.12µm, dual pixel PDAF",
+      "cam2features": "HDR, HDR10+",
+      "cam2video": "4K@30/60fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "32-bit/384kHz audio Tuned by AKG"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi Direct",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS, GLONASS, BDS, GALILEO",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.2, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Samsung DeX, Samsung Wireless DeX (desktop experience support) Circle to Search"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3900 mAh",
+      "Charging": "25W wired, PD3.0, 50% in 30 min 15W wireless (Qi) 4.5W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Phantom Black, Cream, Green, Lavender, Graphite, Lime",
+      "models": "SM-S911B, SM-S911B/DS, SM-S911U, SM-S911U1, SM-S911W, SM-S911N, SM-S9110, SM-S911E, SM-S911E/DS",
+      "sar-us": "0.95 W/kg (head) 0.88 W/kg (body)",
+      "sar-eu": "0.96 W/kg (head) 1.30 W/kg (body)",
+      "price": "$ 274.59 / € 423.00 / £ 239.99 / ₹ 48,049"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1231075 (v9) GeekBench: 4950 (v5.1) GFXBench: 110fps (ES 3.1 onscreen)",
+      "Display": "1198 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-27.0 LUFS (Good)",
+      "batlife2": "Active use score 11:27h",
+      "batlife": "Endurance rating 101h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 14",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2882, A2884",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2882, A2884",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2022, September 07",
+      "status": "Available. Released 2022, September 16"
+    },
+    "Body": {
+      "dimensions": "146.7 x 71.5 x 7.8 mm (5.78 x 2.81 x 0.31 in)",
+      "weight": "172 g (6.07 oz)",
+      "build": "Glass front, glass back, aluminum frame",
+      "sim": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)",
+      "displaysize": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+      "displayresolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass"
+    },
+    "Platform": {
+      "os": "iOS 16, upgradable to iOS 18.4",
+      "chipset": "Apple A15 Bionic (5 nm)",
+      "cpu": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)",
+      "gpu": "Apple GPU (5-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "12 MP, f/1.5, 26mm (wide), 1/1.7\", 1.9µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.4, 13mm, 120˚ (ultrawide)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR",
+      "cam2video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support Emergency SOS via satellite (SMS sending/receiving)"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3279 mAh (12.68 Wh)",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.2 update"
+    },
+    "Misc": {
+      "colors": "Midnight, Purple, Starlight, Blue, Red, Yellow",
+      "models": "A2882, A2649, A2881, A2884, A2883, iphone14,7",
+      "sar-us": "1.15 W/kg (head) 1.16 W/kg (body)",
+      "sar-eu": "0.98 W/kg (head) 0.98 W/kg (body)",
+      "price": "$ 324.99 / € 395.00 / £ 314.49 / ₹ 64,900"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 817125 (v9) GeekBench: 4761 (v5.1) GFXBench: 60fps (ES 3.1 onscreen)",
+      "Display": "804 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-25.2 LUFS (Very good)",
+      "batlife": "Endurance rating 90h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 12 Pro Max",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2342",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79, 260, 261 Sub6/mmWave - A2342",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2020, October 13",
+      "status": "Available. Released 2020, November 13"
+    },
+    "Body": {
+      "dimensions": "160.8 x 78.1 x 7.4 mm (6.33 x 3.07 x 0.29 in)",
+      "weight": "228 g (8.04 oz)",
+      "build": "Glass front, glass back, stainless steel frame",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)",
+      "displaysize": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)",
+      "displayresolution": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)",
+      "displayprotection": "Ceramic Shield glass"
+    },
+    "Platform": {
+      "os": "iOS 14.1, upgradable to iOS 18.4",
+      "chipset": "Apple A14 Bionic (5 nm)",
+      "cpu": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)",
+      "gpu": "Apple GPU (4-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "12 MP, f/1.6, 26mm (wide), 1/1.9\", 1.7µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.2, 65mm (telephoto), 1/3.4\", 1.0µm, PDAF, OIS, 2.5x optical zoom 12 MP, f/2.4, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10‑bit HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR",
+      "cam2video": "4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+      "bluetooth": "5.0, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3687 mAh (14.13 Wh)",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.4 update"
+    },
+    "Misc": {
+      "colors": "Silver, Graphite, Gold, Pacific Blue",
+      "models": "A2411, A2342, A2410, A2412, iPhone13,4",
+      "sar-eu": "0.99 W/kg (head) 0.99 W/kg (body)",
+      "price": "$ 247.19 / € 400.00 / £ 305.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 638584 (v8) GeekBench: 4240 (v5.1) GFXBench: 55fps (ES 3.1 onscreen)",
+      "Display": "822 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-23.8 LUFS (Very good)",
+      "batlife": "Endurance rating 95h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi 14T",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 26, 28, 32, 38, 40, 41, 42, 48, 66",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 26, 28, 38, 40, 41, 48, 66, 77, 78 SA/NSA",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, September 26",
+      "status": "Available. Released 2024, September 26"
+    },
+    "Body": {
+      "dimensions": "160.5 x 75.1 x 7.8 mm or 8.0 mm",
+      "weight": "193 g or 195 g (6.81 oz)",
+      "build": "Glass front (Gorilla Glass 5), plastic frame, glass back (Panda X)",
+      "sim": "Nano-SIM + eSIMeSIM + eSIMNano-SIM + Nano-SIM",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 68B colors, 144Hz, Dolby Vision, HDR10+, 1600 nits (HBM), 4000 nits (peak)",
+      "displaysize": "6.67 inches, 107.4 cm2 (~89.1% screen-to-body ratio)",
+      "displayresolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 14, upgradable to Android 15, HyperOS 2",
+      "chipset": "Mediatek Dimensity 8300 Ultra (4 nm)",
+      "cpu": "Octa-core (1x3.35 GHz Cortex-A715 & 3x3.20 GHz Cortex-A715 & 4x2.20 GHz Cortex-A510)",
+      "gpu": "Mali G615-MC6"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
+      "memoryother": "UFS 4.0"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.7, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS 50 MP, f/1.9, 50mm (telephoto), 1/2.76\", 0.64µm, PDAF, 2x optical zoom 12 MP, f/2.2, 15mm (ultrawide), 1/3.06\", 1.12µm",
+      "cam1features": "Leica lens, Ultra HDR, LED flash, HDR, panorama",
+      "cam1video": "4K@24/30/60fps, 1080p@30/60/120/240/960fps, gyro-EIS, 10-bit Rec. 2020, HDR10+"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.0, 25mm (wide), 1/3.44\", 0.64µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30fps, 1080p@30/60fps, HDR10+"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.4, A2DP, LE, LHDC",
+      "gps": "GPS (L1+L5), BDS (B1I+B1C+B2a), GALILEO (E1+E5a), NavIC (L5), GLONASS",
+      "nfc": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+      "featuresother": "Circle to Search"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "67W wired, PD3.0, 100% in 45 min"
+    },
+    "Misc": {
+      "colors": "Titan Gray, Titan Blue, Titan Black, Lemon Green",
+      "models": "2406APNFAG",
+      "sar-eu": "0.98 W/kg (head) 0.99 W/kg (body)",
+      "price": "$ 499.00 / € 384.98 / £ 327.18"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1253994 (v10) GeekBench: 3989 (v6) 3DMark: 2942 (Wild Life Extreme)",
+      "Display": "1355 nits max brightness (measured)",
+      "Loudspeaker": "-25.0 LUFS (Very good)",
+      "batlife2": "Active use score 11:32h"
+    }
+  },
+  {
+    "Phone Name": "Realme 14 Pro+",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 2100",
+      "net4g": "1, 3, 5, 8, 28, 40, 41 - India",
+      "net5g": "1, 3, 5, 8, 28, 40, 41, 77, 78 SA/NSA - India",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2025, January 09",
+      "status": "Available. Released 2025, January 09"
+    },
+    "Body": {
+      "dimensions": "163.5 x 77.3 x 8 mm or 8.3 mm",
+      "weight": "194 g or 196 g (6.84 oz)",
+      "build": "Glass front (Gorilla Glass 7i), plastic frame, plastic back",
+      "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)Nano-SIM + Nano-SIM",
+      "bodyother": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min) Manufacturer-rated water-resistant (up to 2m for 48 h) GJB 150.18A certified (China only) MIL-STD-810H compliant* * does not guarantee ruggedness or use in extreme conditions"
+    },
+    "Display": {
+      "displaytype": "OLED, 1B colors, 120Hz, 1200 nits (HBM), 1500 nits (peak)",
+      "displaysize": "6.83 inches, 113.3 cm2 (~89.7% screen-to-body ratio)",
+      "displayresolution": "1272 x 2800 pixels (~450 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 7i"
+    },
+    "Platform": {
+      "os": "Android 15, up to 2 major Android upgrades, Realme UI 6.0",
+      "chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+      "cpu": "Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+      "gpu": "Adreno 710 (940 MHz)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS 50 MP, f/2.7, 73mm, (periscope telephoto), 1/1.95\", 0.8µm, multi-directional PDAF, OIS, 3x optical zoom 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+      "cam1features": "Color spectrum sensor, Triple-LED flash, HDR, panorama",
+      "cam1video": "4K@30fps, 1080p@30/60/120fps, gyro-EIS, OIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.0, 21mm (wide), 1/2.74\", 0.8µm, AF",
+      "cam2features": "Panorama",
+      "cam2video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "bluetooth": "5.2, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "nfc": "Yes, 360˚ (market/region dependent)",
+      "radio": "No",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Si/C Li-Ion 6000 mAh",
+      "Charging": "80W wired, 50% in 24 min"
+    },
+    "Misc": {
+      "colors": "Pearl White, Suede Gray, Bikaner Purple",
+      "models": "RMX5051",
+      "price": "$ 709.00 / € 449.99 / ₹ 27,999"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 765537 (v10) GeekBench: 2627 (v6) 3DMark: 1024 (Wild Life Extreme)",
+      "Display": "1168 nits max brightness (measured)",
+      "Loudspeaker": "-25.5 LUFS (Very good)",
+      "batlife2": "Active use score 14:10h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 13 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2638, A2639, A2640",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 30, 38, 40, 41, 48, 66, 77, 78, 79 SA/NSA/Sub6 - A2638, A2639",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2021, September 14",
+      "status": "Available. Released 2021, September 24"
+    },
+    "Body": {
+      "dimensions": "146.7 x 71.5 x 7.7 mm (5.78 x 2.81 x 0.30 in)",
+      "weight": "204 g (7.20 oz)",
+      "build": "Glass front, glass back, stainless steel frame",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (HBM), 1200 nits (peak)",
+      "displaysize": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+      "displayresolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass"
+    },
+    "Platform": {
+      "os": "iOS 15, upgradable to iOS 18.4",
+      "chipset": "Apple A15 Bionic (5 nm)",
+      "cpu": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)",
+      "gpu": "Apple GPU (5-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "12 MP, f/1.5, 26mm (wide), 1/1.7\", 1.9µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 77mm (telephoto), PDAF, 1/3.4\", 1.0µm, OIS, 3x optical zoom 12 MP, f/1.8, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm, PDAF TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10‑bit HDR, Dolby Vision HDR (up to 60fps), ProRes, stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR",
+      "cam2video": "4K@24/25/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+      "bluetooth": "5.0, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 3095 mAh (12.11 Wh)",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.2 update"
+    },
+    "Misc": {
+      "colors": "Graphite, Gold, Silver, Sierra Blue, Alpine Green",
+      "models": "A2638, A2483, A2636, A2639, A2640, iPhone14,2",
+      "sar-us": "1.20 W/kg (head) 1.19 W/kg (body)",
+      "sar-eu": "0.99 W/kg (head) 0.98 W/kg (body)",
+      "price": "$ 292.60 / € 430.00 / £ 324.40"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 794348 (v9) GeekBench: 4687 (v5.1) GFXBench: 60fps (ES 3.1 onscreen)",
+      "Display": "1063 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-24.9 LUFS (Very good)",
+      "batlife": "Endurance rating 85h"
+    }
+  },
+  {
+    "Phone Name": "Apple iPhone 12 Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2341",
+      "net5g": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79, 260, 261 Sub6/mmWave - A2341",
+      "speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "year": "2020, October 13",
+      "status": "Available. Released 2020, October 23"
+    },
+    "Body": {
+      "dimensions": "146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)",
+      "weight": "189 g (6.67 oz)",
+      "build": "Glass front, glass back, stainless steel frame",
+      "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM (China)",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified)"
+    },
+    "Display": {
+      "displaytype": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)",
+      "displaysize": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+      "displayresolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+      "displayprotection": "Ceramic Shield glass"
+    },
+    "Platform": {
+      "os": "iOS 14.1, upgradable to iOS 18.4",
+      "chipset": "Apple A14 Bionic (5 nm)",
+      "cpu": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)",
+      "gpu": "Apple GPU (4-core graphics)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM",
+      "memoryother": "NVMe"
+    },
+    "Main Camera": {
+      "cam1modules": "12 MP, f/1.6, 26mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS 12 MP, f/2.0, 52mm (telephoto), 1/3.4\", 1.0µm, PDAF, OIS, 2x optical zoom 12 MP, f/2.4, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm TOF 3D LiDAR scanner (depth)",
+      "cam1features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "cam1video": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10‑bit HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+    },
+    "Selfie camera": {
+      "cam2modules": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm SL 3D, (depth/biometrics sensor)",
+      "cam2features": "HDR",
+      "cam2video": "4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+      "bluetooth": "5.0, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, QZSS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "Ultra Wideband (UWB) support"
+    },
+    "Battery": {
+      "batdescription1": "Li-Ion 2815 mAh (10.78 Wh)",
+      "Charging": "Wired, PD2.0, 50% in 30 min 15W wireless (MagSafe) 15W wireless (Qi2) - requires iOS 17.4 update"
+    },
+    "Misc": {
+      "colors": "Silver, Graphite, Gold, Pacific Blue",
+      "models": "A2407, A2341, A2406, A2408, iPhone13,3",
+      "sar-eu": "0.99 W/kg (head) 0.99 W/kg (body)",
+      "price": "$ 274.00 / € 369.99 / £ 244.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 596244 (v8) GeekBench: 4056 (v5.1) GFXBench: 58fps (ES 3.1 onscreen)",
+      "Display": "Contrast ratio: Infinite (nominal)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-24.2 LUFS (Very good)",
+      "batlife": "Endurance rating 81h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Redmi Note 13",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 - International",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 26, 28, 32, 38, 40, 41, 66 - International",
+      "net5g": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 77, 78 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, January 04",
+      "status": "Available. Released 2024, January 10"
+    },
+    "Body": {
+      "dimensions": "161.1 x 75 x 7.6 mm (6.34 x 2.95 x 0.30 in)",
+      "weight": "174.5 g (6.14 oz)",
+      "build": "Glass front (Gorilla Glass 5), plastic frame, plastic back",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IP54 dust protected and water resistant (water splashes)"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 1B colors*, 120Hz, 1000 nits (peak)",
+      "displaysize": "6.67 inches, 107.4 cm2 (~88.9% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5",
+      "displayother": "*1B colors (market/region dependent)"
+    },
+    "Platform": {
+      "os": "Android 13, upgradable to Android 14, up to 2 major Android upgrades, HyperOS",
+      "chipset": "Mediatek Dimensity 6080 (6 nm)",
+      "cpu": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (uses shared SIM slot)",
+      "internalmemory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+      "memoryother": "UFS 2.2"
+    },
+    "Main Camera": {
+      "cam1modules": "108 MP, f/1.7, (wide), 1/1.67\", 0.64µm, PDAF 8 MP, f/2.2, (ultrawide) 2 MP, f/2.4, (depth)",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "16 MP, f/2.4, (wide)",
+      "cam2features": "HDR, panorama",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes",
+      "optionalother": "24-bit/192kHz Hi-Res & Hi-Res wireless audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS, GLONASS",
+      "nfc": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "colors": "Graphite black (Stealth Black), Arctic White, Ocean Teal, Prism Gold",
+      "models": "2312DRAABG, 2312DRAABI",
+      "sar-us": "1.07 W/kg (head) 0.99 W/kg (body)",
+      "sar-eu": "0.94 W/kg (head) 1.00 W/kg (body)",
+      "price": "$ 204.53 / € 141.47 / £ 169.00 / ₹ 15,245"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 405118 (v9), 455421 (v10) GeekBench: 1968 (v5), 1978 (v6) 3DMark: 371 (Wild Life Extreme)",
+      "Display": "991 nits max brightness (measured)",
+      "Loudspeaker": "-24.0 LUFS (Very good)",
+      "batlife2": "Active use score 9:49h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Redmi 13",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 2100",
+      "net4g": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "year": "2024, June 03",
+      "status": "Available. Released 2024, June 03"
+    },
+    "Body": {
+      "dimensions": "168.6 x 76.3 x 8.3 mm (6.64 x 3.00 x 0.33 in)",
+      "weight": "205 g (7.23 oz)",
+      "build": "Glass front, plastic frame, glass back",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IP53 dust protected and water resistant (vertical water sprays)"
+    },
+    "Display": {
+      "displaytype": "IPS LCD, 90Hz, 550 nits (HBM)",
+      "displaysize": "6.79 inches, 109.5 cm2 (~85.1% screen-to-body ratio)",
+      "displayresolution": "1080 x 2460 pixels (~396 ppi density)",
+      "displayprotection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "os": "Android 14, HyperOS",
+      "chipset": "Mediatek Helio G91 Ultra (12 nm)",
+      "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "gpu": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (uses shared SIM slot)",
+      "internalmemory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM",
+      "memoryother": "eMMC 5.1"
+    },
+    "Main Camera": {
+      "cam1modules": "108 MP, f/1.8, (wide), 1/1.67\", 0.64µm, PDAF 2 MP, f/2.4, (macro)",
+      "cam1features": "LED flash, HDR",
+      "cam1video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "13 MP, f/2.5, (wide)",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "bluetooth": "5.4, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS",
+      "nfc": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "radio": "FM radio",
+      "usb": "USB Type-C"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, compass",
+      "featuresother": "Virtual proximity sensing"
+    },
+    "Battery": {
+      "batdescription1": "5030 mAh",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "colors": "Midnight Black, Sandy Gold, Ocean Blue, Pink",
+      "models": "2404ARN45A, 24040RN64Y",
+      "sar-eu": "0.99 W/kg (head) 0.98 W/kg (body)",
+      "price": "$ 129.00 / € 98.32 / £ 175.29"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 258090 (v9), 262438 (v10) GeekBench: 1346 (v5), 1342 (v6) 3DMark: 187 (Wild Life Extreme)",
+      "Display": "1300:1 contrast ratio, 448 nits max brightness (measured)",
+      "Loudspeaker": "-29.9 LUFS (Average)",
+      "batlife2": "Active use score 10:28h"
+    }
+  },
+  {
+    "Phone Name": "Samsung Galaxy A05s",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 2100",
+      "net4g": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "year": "2023, September 25",
+      "status": "Available. Released 2023, October 18"
+    },
+    "Body": {
+      "dimensions": "168 x 77.8 x 8.8 mm (6.61 x 3.06 x 0.35 in)",
+      "weight": "194 g (6.84 oz)",
+      "build": "Glass front, plastic back, plastic frame",
+      "sim": "Nano-SIMNano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "PLS LCD, 90Hz",
+      "displaysize": "6.7 inches, 108.4 cm2 (~82.9% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~393 ppi density)"
+    },
+    "Platform": {
+      "os": "Android 13",
+      "chipset": "Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+      "cpu": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+      "gpu": "Adreno 610"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (dedicated slot)",
+      "internalmemory": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM",
+      "memoryother": "eMMC 5.1"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, (wide), 1/2.8\", 0.64µm, AF 2 MP, f/2.4, (macro) 2 MP, f/2.4, (depth)",
+      "cam1features": "LED flash",
+      "cam1video": "1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "13 MP, f/2.0, (wide), 1/3.X\", 1.12µm",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.1, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "nfc": "Yes (market/region dependent)",
+      "radio": "Unspecified",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "25W wired"
+    },
+    "Misc": {
+      "colors": "Black, Silver, Light Green, Violet",
+      "models": "SM-A057F, SM-A057F/DS, SM-A057M, SM-A057M/DS, SM-A057G/DSN, SM-A057G",
+      "sar-eu": "0.58 W/kg (head) 1.31 W/kg (body)",
+      "price": "$ 128.87 / € 99.90 / £ 63.18 / ₹ 10,999"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 264654 (v9), 316956 (v10) GeekBench: 1457 (v5), 1449 (v6) GFXBench: 7fps (ES 3.1 onscreen)",
+      "Display": "1418:1 contrast ratio, 468 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-30.0 LUFS (Average)",
+      "batlife2": "Active use score 11:32h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Mi 10T Pro 5G",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
+      "net5g": "1, 3, 7, 8, 20, 28, 38, 41, 77, 78 NSA",
+      "speed": "HSPA, LTE, 5G (2+ Gbps DL)"
+    },
+    "Launch": {
+      "year": "2020, September 30",
+      "status": "Available. Released 2020, October 13"
+    },
+    "Body": {
+      "dimensions": "165.1 x 76.4 x 9.3 mm (6.5 x 3.01 x 0.37 in)",
+      "weight": "218 g (7.69 oz)",
+      "build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "IPS LCD, 144Hz, HDR10+, 500 nits (typ), 650 nits (peak)",
+      "displaysize": "6.67 inches, 107.4 cm2 (~85.2% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 10, upgradable to Android 11, MIUI 12.5",
+      "chipset": "Qualcomm SM8250 Snapdragon 865 5G (7 nm+)",
+      "cpu": "Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)",
+      "gpu": "Adreno 650"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 8GB RAM, 256GB 8GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "108 MP, f/1.7, 26mm (wide), 1/1.33\", 0.8µm, PDAF, OIS 13 MP, f/2.4, 123˚ (ultrawide), 1.12µm 5 MP, f/2.4, (macro), 1/5.0\", 1.12µm, AF",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "8K@30fps, 4K@30/60fps, 1080p@30/60/120fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "20 MP, f/2.2, 27mm (wide), 1/3.4\", 0.8µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps, 720p@120fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "24-bit/192kHz Hi-Res audio"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.1, A2DP, LE, aptX HD, aptX Adaptive",
+      "gps": "GPS (L1+L5), GLONASS (G1), BDS (B1), GALILEO (E1+E5a)",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "33W wired, PD3.0"
+    },
+    "Misc": {
+      "colors": "Cosmic Black, Lunar Silver, Aurora Blue",
+      "models": "M2007J3SG, M2007J3SP, M2007J3SI, M2007J17C",
+      "sar-us": "0.97 W/kg (head) 0.98 W/kg (body)",
+      "sar-eu": "0.57 W/kg (head) 1.00 W/kg (body)",
+      "price": "€ 117.87 / £ 141.36"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 563961 (v8) GeekBench: 3311 (v5.1) GFXBench: 46fps (ES 3.1 onscreen)",
+      "Display": "1185:1 contrast ratio, 630 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-26.4 LUFS (Good)",
+      "batlife": "Endurance rating 118h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Poco M5",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 20, 28, 38, 40, 41",
+      "speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "year": "2022, September 05",
+      "status": "Available. Released 2022, September 13"
+    },
+    "Body": {
+      "dimensions": "164 x 76.1 x 8.9 mm (6.46 x 3.00 x 0.35 in)",
+      "weight": "201 g (7.09 oz)",
+      "build": "Glass front (Gorilla Glass 3), plastic frame, plastic back",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "IPS LCD, 90Hz, 500 nits (HBM)",
+      "displaysize": "6.58 inches, 104.3 cm2 (~83.6% screen-to-body ratio)",
+      "displayresolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "os": "Android 12, upgradable to Android 14, HyperOS",
+      "chipset": "Mediatek Helio G99 (6 nm)",
+      "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (dedicated slot)",
+      "internalmemory": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM",
+      "memoryother": "UFS 2.2"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.8, (wide), PDAF 2 MP, f/2.4, (macro) 2 MP, f/2.4, (depth)",
+      "cam1features": "LED flash, HDR, panorama",
+      "cam1video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "5 MP, f/2.2, (wide), 1/5.0\", 1.12µm",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.3, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "FM radio",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "colors": "Black, Green, Yellow",
+      "models": "22071219CG",
+      "sar-us": "1.04 W/kg (head) 0.83 W/kg (body)",
+      "sar-eu": "0.52 W/kg (head) 0.83 W/kg (body)",
+      "price": "$ 144.99 / € 99.99 / £ 131.38"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 386311 (v9) GeekBench: 1896 (v5.1) GFXBench: 12fps (ES 3.1 onscreen)",
+      "Display": "1363:1 contrast ratio, 448 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-27.6 LUFS (Good)",
+      "batlife": "Endurance rating 121h"
+    }
+  },
+  {
+    "Phone Name": "Samsung Galaxy A22 5G",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1900 / 2100",
+      "net4g": "1, 2, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "net5g": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 78, 79 SA/NSA/Sub6",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2021, June 03",
+      "status": "Available. Released 2021, June 24"
+    },
+    "Body": {
+      "dimensions": "167.2 x 76.4 x 9 mm (6.58 x 3.01 x 0.35 in)",
+      "weight": "203 g (7.16 oz)",
+      "build": "Glass front, plastic frame, plastic back",
+      "sim": "Nano-SIMNano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "TFT LCD, 90Hz",
+      "displaysize": "6.6 inches, 105.2 cm2 (~82.3% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~399 ppi density)"
+    },
+    "Platform": {
+      "os": "Android 11, upgradable to Android 13, One UI core 5",
+      "chipset": "Mediatek Dimensity 700 (7 nm)",
+      "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "memoryslot": "microSDXC (dedicated slot)",
+      "internalmemory": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, (wide), PDAF 5 MP, f/2.2, 115˚ (ultrawide), 1/5.0\", 1.12µm 2 MP, f/2.4, (depth)",
+      "cam1features": "LED flash, panorama, HDR",
+      "cam1video": "1152p@30fps"
+    },
+    "Selfie camera": {
+      "cam2modules": "8 MP, f/2.0, (wide)",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.0, A2DP, LE",
+      "gps": "GPS, GLONASS, GALILEO, BDS",
+      "nfc": "Yes (market/region dependent)",
+      "radio": "FM radio",
+      "usb": "USB Type-C 2.0"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5000 mAh",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "colors": "Gray, White, Mint, Violet",
+      "models": "SM-A226B, SM-A226B/DS, SM-A226B/DSN, SM-A226BR, SM-A226BR/N, SM-A226L, SC-56B",
+      "sar-eu": "0.73 W/kg (head) 1.23 W/kg (body)",
+      "price": "€ 119.00 / £ 92.87"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 242155 (v8), 223188 (v9) GeekBench: 6913 (v4.4), 1719 (v5.1) GFXBench: 12fps (ES 3.1 onscreen)",
+      "Display": "1631:1 contrast ratio, 385 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-28.5 LUFS (Average)",
+      "batlife": "Endurance rating 118h"
+    }
+  },
+  {
+    "Phone Name": "OnePlus Nord",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 32, 34, 38, 39, 40, 41, 66 - Europe",
+      "net5g": "1, 3, 7, 28, 78 SA/NSA - Europe",
+      "speed": "HSPA 42.2/5.76 Mbps, LTE (CA) Cat18 1200/150 Mbps, 5G"
+    },
+    "Launch": {
+      "year": "2020, July 21",
+      "status": "Available. Released 2020, August 04"
+    },
+    "Body": {
+      "dimensions": "158.3 x 73.3 x 8.2 mm (6.23 x 2.89 x 0.32 in)",
+      "weight": "184 g (6.49 oz)",
+      "build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), plastic frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "Fluid AMOLED, 90Hz, HDR10+",
+      "displaysize": "6.44 inches, 100.6 cm2 (~86.7% screen-to-body ratio)",
+      "displayresolution": "1080 x 2400 pixels, 20:9 ratio (~408 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 10, upgradable to Android 12, OxygenOS 12",
+      "chipset": "Qualcomm SM7250 Snapdragon 765G 5G (7 nm)",
+      "cpu": "Octa-core (1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475 Gold & 6x1.8 GHz Kryo 475 Silver)",
+      "gpu": "Adreno 620"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "64GB 6GB RAM, 128GB 8GB RAM, 256GB 12GB RAM",
+      "memoryother": "UFS 2.1"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, OIS 8 MP, f/2.3, 119˚ (ultrawide) 5 MP, f/2.4, (depth) 2 MP, f/2.4, (macro)",
+      "cam1features": "Dual-LED flash, HDR, panorama",
+      "cam1video": "4K@30fps, 1080p@30/60/240fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "32 MP, f/2.5, (wide), 1/2.8\", 0.8µm 8 MP, f/2.5, 105˚ (ultrawide), 1/4.0\", 1.12µm",
+      "cam2features": "HDR",
+      "cam2video": "4K@30/60fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.1, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS (G1), BDS (B1), GALILEO (E1+E5a), NavIC",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4115 mAh",
+      "Charging": "30W wired, 70% in 30 min"
+    },
+    "Misc": {
+      "colors": "Blue Marble, Gray Onyx (Gray Ash)",
+      "models": "AC2001, AC2003",
+      "price": "$ 389.99 / € 107.23 / £ 139.99"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 315641 (v8) GeekBench: 7844 (v4.4), 1953 (v5.1) GFXBench: 19fps (ES 3.1 onscreen)",
+      "Display": "756 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-29.6 LUFS (Average)",
+      "batlife": "Endurance rating 100h"
+    }
+  },
+  {
+    "Phone Name": "Xiaomi Mi 11",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 32, 38, 40, 41, 42, 66 - International",
+      "net5g": "1, 3, 5, 7, 8, 20, 28, 38, 41, 77, 78, 79 SA/NSA - International",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2020, December 28",
+      "status": "Available. Released 2021, January 01"
+    },
+    "Body": {
+      "dimensions": "164.3 x 74.6 x 8.1 mm (Glass) / 8.6 mm (Leather)",
+      "weight": "196 g (Glass) / 194 g (Leather) (6.84 oz)",
+      "build": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 5) or eco leather back, aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "AMOLED, 1B colors, 120Hz, HDR10+, 1500 nits (peak)",
+      "displaysize": "6.81 inches, 112.0 cm2 (~91.4% screen-to-body ratio)",
+      "displayresolution": "1440 x 3200 pixels, 20:9 ratio (~515 ppi density)",
+      "displayprotection": "Corning Gorilla Glass Victus"
+    },
+    "Platform": {
+      "os": "Android 11, upgradable to Android 14, HyperOS",
+      "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+      "cpu": "Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55",
+      "gpu": "Adreno 660"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+      "memoryother": "UFS 3.1"
+    },
+    "Main Camera": {
+      "cam1modules": "108 MP, f/1.9, 26mm (wide), 1/1.33\", 0.8µm, PDAF, OIS 13 MP, f/2.4, 123˚ (ultrawide), 1/3.06\", 1.12µm 5 MP, f/2.4, (macro), 1/5.0\", 1.12µm",
+      "cam1features": "Dual-LED dual-tone flash, HDR, panorama",
+      "cam1video": "8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240fps; gyro-EIS, HDR10+"
+    },
+    "Selfie camera": {
+      "cam2modules": "20 MP, f/2.2, 27mm (wide), 1/3.4\", 0.8µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30/60fps, 720p@120fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No",
+      "optionalother": "24-bit/192kHz Hi-Res audio Snapdragon Sound"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive",
+      "gps": "GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5)",
+      "nfc": "Yes",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass",
+      "featuresother": "Virtual proximity sensing"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4600 mAh",
+      "Charging": "55W wired, PD3.0, QC4, 100% in 45 min 50W wireless, 100% in 53 min 10W reverse wireless"
+    },
+    "Misc": {
+      "colors": "Horizon Blue, Cloud White, Midnight Gray, Special Edition Blue, Gold, Violet",
+      "models": "M2011K2C, M2011K2G",
+      "sar-us": "0.95 W/kg (head) 0.65 W/kg (body)",
+      "sar-eu": "0.56 W/kg (head) 0.98 W/kg (body)",
+      "price": "€ 149.90 / £ 250.00"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 668722 (v8) GeekBench: 3489 (v5.1) GFXBench: 33fps (ES 3.1 onscreen)",
+      "Display": "Contrast ratio: Infinite (nominal)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-24.2 LUFS (Very good)",
+      "batlife": "Endurance rating 89h"
+    }
+  },
+  {
+    "Phone Name": "Google Pixel 4a",
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 20, 25, 26, 28, 29, 30, 38, 39, 40, 41, 66, 71",
+      "speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/75 Mbps"
+    },
+    "Launch": {
+      "year": "2020, August 03",
+      "status": "Available. Released 2020, August 20"
+    },
+    "Body": {
+      "dimensions": "144 x 69.4 x 8.2 mm (5.67 x 2.73 x 0.32 in)",
+      "weight": "143 g (5.04 oz)",
+      "build": "Glass front (Gorilla Glass 3), plastic back, plastic frame",
+      "sim": "Nano-SIM + eSIM"
+    },
+    "Display": {
+      "displaytype": "OLED, HDR",
+      "displaysize": "5.81 inches, 83.2 cm2 (~83.3% screen-to-body ratio)",
+      "displayresolution": "1080 x 2340 pixels, 19.5:9 ratio (~443 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 3",
+      "displayother": "Always-on display"
+    },
+    "Platform": {
+      "os": "Android 10, upgradable to Android 13",
+      "chipset": "Qualcomm SDM730 Snapdragon 730G (8 nm)",
+      "cpu": "Octa-core (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver)",
+      "gpu": "Adreno 618"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "128GB 6GB RAM",
+      "memoryother": "UFS 2.1"
+    },
+    "Main Camera": {
+      "cam1modules": "12.2 MP, f/1.7, 27mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS",
+      "cam1features": "LED flash, Pixel Shift, Auto-HDR, panorama",
+      "cam1video": "4K@30fps, 1080p@30/60/120fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "8 MP, f/2.0, 24mm (wide), 1.12µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "bluetooth": "5.0, A2DP, LE, aptX HD",
+      "gps": "GPS, GLONASS, GALILEO, QZSS, BDS",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1"
+    },
+    "Features": {
+      "sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 3140 mAh",
+      "Charging": "18W wired, PD2.0"
+    },
+    "Misc": {
+      "colors": "Just Black, Barely Blue",
+      "models": "G025J, GA02099, G025N",
+      "price": "$ 114.50 / € 122.00 / £ 99.99"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 268714 (v8) GeekBench: 6426 (v4.4), 1626 (v5.1) GFXBench: 17fps (ES 3.1 onscreen)",
+      "Display": "803 nits max brightness (measured)",
+      "batlife": "Endurance rating 76h"
+    }
+  }
+]
