@@ -7,31 +7,23 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
-from  data_processing import get_processed_phone_data
-from sklearn.impute import KNNImputer
-from sklearn.preprocessing import LabelEncoder
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
+from data_processing import get_processed_phone_data
 
-# Streamlit Setup
 st.set_page_config(page_title="Phone Data Analysis", layout="wide")
 st.title("Phone Data Visualizations")
 
-# Load data
 phone_data = get_processed_phone_data()
 
-# Display DataFrame using HTML instead of direct st.write to avoid PyArrow conversion issues
 st.markdown("### Phone Data Preview")
 st.write(phone_data.head().to_html(index=False), unsafe_allow_html=True)
 st.write("Data shape:", phone_data.shape)
-st.write("Columns:", phone_data.columns.tolist())  # Convert Index to list
-st.write("Data types:", phone_data.dtypes.astype(str).to_dict())  # Convert dtypes to strings
-st.write("Missing values:", phone_data.isnull().sum().to_dict())  # Convert Series to dict
+st.write("Columns:", phone_data.columns.tolist())
+st.write("Data types:", phone_data.dtypes.astype(str).to_dict())
+st.write("Missing values:", phone_data.isnull().sum().to_dict())
 
 tier_order = ["Budget", "Mid-Range", "Premium", "Flagship"]
 phone_data["phone_tier"] = pd.Categorical(phone_data["phone_tier"], categories=tier_order, ordered=True)
 
-# Scatter Plot for Performance vs Price
 color_map = {
     'Budget': 'rgba(0, 200, 81, 0.7)',
     'Mid-Range': 'rgba(0, 122, 255, 0.7)',
@@ -39,7 +31,6 @@ color_map = {
     'Flagship': 'rgba(255, 0, 0, 0.7)'
 }
 
-phone_data['phone_tier'] = pd.Categorical(phone_data['phone_tier'], categories=tier_order, ordered=True)
 phone_data['text'] = phone_data['phone_name']
 
 best_phones_idx = phone_data.groupby('phone_tier').apply(
@@ -84,7 +75,6 @@ fig.update_layout(
 
 st.plotly_chart(fig)
 
-# Bubble Chart for Battery vs Charging Speed
 fig = px.scatter(
     phone_data,
     x='charging_speed',
@@ -94,7 +84,7 @@ fig = px.scatter(
     hover_name='phone_name',
     title="Battery Capacity vs Charging Speed",
     labels={'charging_speed': 'Charging Speed (W)', 'battery_capacity': 'Battery Capacity (mAh)'},
-    category_orders={"phone_tier": ["Budget", "Mid-Range", "Premium", "Flagship"]}
+    category_orders={"phone_tier": tier_order}
 )
 
 fig.update_layout(
@@ -105,7 +95,6 @@ fig.update_layout(
 
 st.plotly_chart(fig)
 
-# Pie Chart for Display Types
 display_counts = phone_data['display_type'].value_counts().reset_index()
 display_counts.columns = ['display_type', 'count']
 
@@ -120,7 +109,6 @@ fig = px.pie(
 fig.update_traces(textinfo='percent+label')
 st.plotly_chart(fig)
 
-# Bar Chart for Number of Phones by Tier
 phone_count_by_tier = phone_data["phone_tier"].value_counts().reset_index()
 phone_count_by_tier.columns = ["phone_tier", "count"]
 phone_count_by_tier["phone_tier"] = pd.Categorical(phone_count_by_tier["phone_tier"], categories=tier_order, ordered=True)
@@ -145,7 +133,6 @@ fig.update_layout(
 
 st.plotly_chart(fig)
 
-# Correlation Matrix
 columns_of_interest = ["price", "antutu_score", "battery_capacity", "charging_speed", "refresh_rate", "brightness"]
 correlation_data = phone_data[columns_of_interest]
 correlation_matrix = correlation_data.corr()
@@ -164,7 +151,6 @@ plt.xticks(rotation=45, ha='right', fontsize=12)
 plt.yticks(fontsize=12)
 st.pyplot(plt)
 
-# Top 10 Chipsets by Antutu Score
 filtered_data = phone_data[phone_data["antutu_score"] > 0]
 top_10_data = (
     filtered_data.sort_values(by="antutu_score", ascending=False)
@@ -196,7 +182,6 @@ fig.update_layout(
 )
 st.plotly_chart(fig)
 
-# Box Plot for Brightness by Display Type
 fig = px.box(
     phone_data,
     x="display_type",
@@ -209,9 +194,8 @@ fig = px.box(
 )
 fig.update_layout(
     xaxis_title="Display Type",
-    yaxis_title="Brightness (nits)",
+    yaxis_title=" EHBrightness (nits)",
     xaxis_tickangle=45,
     showlegend=False
 )
 st.plotly_chart(fig)
-
