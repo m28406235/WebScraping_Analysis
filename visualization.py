@@ -17,7 +17,6 @@ phone_data = get_processed_phone_data()
 st.markdown("### Phone Data Preview")
 st.write(phone_data.head().to_html(index=False), unsafe_allow_html=True)
 st.write("Data shape:", phone_data.shape)
-st.write("Columns:", phone_data.columns.tolist())
 st.write("Data types:", phone_data.dtypes.astype(str).to_dict())
 st.write("Missing values:", phone_data.isnull().sum().to_dict())
 

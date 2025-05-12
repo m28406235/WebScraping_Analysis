@@ -54852,5 +54852,70 @@
       "Loudspeaker": "-29.7 LUFS (Average)",
       "Battery (old)": "Endurance rating 114h"
     }
+  },
+  {
+    "Phone Name": "vivo iQOO Neo 6",
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 2100",
+      "4G bands": "1, 3, 4, 5, 8, 38, 40, 41",
+      "5G bands": "1, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Status": "Available. Released 2022, May 31"
+    },
+    "Body": {
+      "Weight": "190 g (6.70 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "Size": "6.62 inches, 105.8 cm2 (~85.2% screen-to-body ratio)",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~398 ppi density)"
+    },
+    "Platform": {
+      "Chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
+      "CPU": "Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "Internal": "128GB 8GB RAM, 256GB 12GB RAM",
+      "": "UFS 3.1"
+    },
+    "Main Camera": {
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30/60fps, 1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "3.5mm jack": "No",
+      "": "24-bit/192kHz Hi-Res audio\r\nSnapdragon Sound"
+    },
+    "Comms": {
+      "Bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {},
+    "Battery": {
+      "Charging": "80W wired, 50% in 12 min, 100% in 32 min"
+    },
+    "Misc": {
+      "Models": "I2126",
+      "Price": "About 360 EUR"
+    },
+    "Tests": {
+      "Display": "772 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-25.0 LUFS (Very good)",
+      "Battery (old)": "Endurance rating 97h"
+    }
   }
 ]
