@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import sys
 import os
-import numpy as np
 
 # Add the parent directory to sys.path to make imports work
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))

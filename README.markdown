@@ -1,6 +1,6 @@
 # Phone Analysis Project
 
-This project scrapes smartphone specifications from [GSMArena](https://www.gsmarena.com), processes the data, stores it in MongoDB, and visualizes key metrics using Streamlit. The code is modularized into multiple files for better organization and maintainability, separating concerns such as configuration, web scraping, data processing, database operations, and visualization. To avoid being blocked by GSMArena's rate-limiting mechanisms, the scraper implements low concurrency, extended delays, proxy rotation, and adaptive retries.
+This project scrapes smartphone specifications from [GSMArena](https://www.gsmarena.com), processes the data, stores it in MongoDB, and visualizes key metrics using Streamlit. The code is modularized into multiple files for better organization and maintainability, separating concerns such as configuration, web scraping, data processing, database operations, and visualization. To avoid being blocked by GSMArena's rate-limiting mechanisms, the scraper implements low concurrency, extended delays, user agent rotation, and adaptive retries.
 
 ## Project Structure
 ```
@@ -32,7 +32,7 @@ WebScraping_Analysis/
 ```
 
 ### File Descriptions
-- **src/config/settings.py**: Defines constants (e.g., URLs, user agents, proxies) and configures the environment (e.g., suppresses warnings, sets CPU limits).
+- **src/config/settings.py**: Defines constants (e.g., URLs, user agents) and configures the environment (e.g., suppresses warnings, sets CPU limits).
 - **src/scraper/fetcher.py**: Handles fetching phone links and scraping individual phone pages using asynchronous HTTP requests with `aiohttp`, incorporating user agent rotation and extended retries.
 - **src/scraper/parser.py**: Parses phone specifications from HTML into structured dictionaries using `BeautifulSoup`.
 - **src/data/loader.py**: Manages loading and saving phone data to/from a JSON file (`phones.json`).
@@ -66,16 +66,11 @@ WebScraping_Analysis/
      ```
    - Required packages include `aiohttp`, `beautifulsoup4`, `pandas`, `scikit-learn`, `pymongo`, `streamlit`, `plotly`, `matplotlib`, `seaborn`, `tenacity`, and `pyarrow`.
 
-3. **Configure Proxies (Optional but Recommended)**:
-   - To avoid rate-limiting or IP bans, configure proxies in `src/config/settings.py` by adding a list of HTTP proxies to the `PROXIES` variable (e.g., `["http://123.456.789.012:8080", "http://987.654.321.098:8080"]`).
-   - Obtain proxies from a reliable proxy provider (e.g., Bright Data, Oxylabs, or free proxy lists for testing). Ensure proxies support HTTP/HTTPS.
-   - Currently, the `PROXIES` list is empty, so the scraper will use your local IP, increasing the risk of being blocked.
-
-4. **Configure MongoDB**:
+3. **Configure MongoDB**:
    - Replace the MongoDB connection string in `src/database/mongo.py` with your own MongoDB Atlas or local MongoDB connection string.
    - Ensure the MongoDB database (`Web_Scraping`) and collection (`Phones`) are accessible.
 
-5. **Run the Scraper and Save to MongoDB**:
+4. **Run the Scraper and Save to MongoDB**:
    - Execute the main script to scrape phone data and store it in MongoDB:
      ```bash
      python main.py
@@ -88,7 +83,7 @@ WebScraping_Analysis/
      - Process the data and store it in MongoDB.
    - Monitor the console for logs, especially for HTTP 429 (Too Many Requests) errors, which indicate rate-limiting.
 
-6. **Run Visualizations**:
+5. **Run Visualizations**:
    - Launch the Streamlit app to view interactive visualizations:
      ```bash
      streamlit run src/visualization/plots.py
@@ -186,7 +181,6 @@ The project collects, processes, and analyzes smartphone specifications from GSM
 - **Package Structure**: Uses `__init__.py` files to enable proper Python importing.
 
 ### Potential Improvements
-- **Proxy Implementation**: Implement and utilize the currently empty `PROXIES` list to distribute requests across multiple IP addresses.
 - **Adaptive Rate Limiting**: Implement dynamic delays based on response patterns.
 - **Testing**: Add unit and integration tests for scraping, processing, and visualization components.
 - **Dockerization**: Create a Docker container for consistent deployment.

@@ -21,11 +21,6 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1"
 ]
-PROXIES = [
-    # Add your proxy list here, e.g., "http://proxy1:port", "http://proxy2:port"
-    # Example: "http://123.456.789.012:8080"
-    # Leave empty to disable proxies
-]
 SEARCH_URLS = [
     "https://www.gsmarena.com/results.php3?nPriceMin=900&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",
     "https://www.gsmarena.com/results.php3?nPriceMin=700&nPriceMax=900&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1",

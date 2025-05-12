@@ -1,13 +1,10 @@
 import aiohttp
 import asyncio
-import random
 import sys
-import time
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm.asyncio import tqdm_asyncio
-from config.settings import BASE_URL, SEARCH_URLS, USER_AGENTS, MAX_CONCURRENT_REQUESTS, REQUEST_DELAY, PROXIES
+from config.settings import BASE_URL, SEARCH_URLS, MAX_CONCURRENT_REQUESTS
 from scraper.parser import parse_specs
 
 BASE_URL = "https://www.gsmarena.com"
