@@ -54545,5 +54545,312 @@
       "Loudspeaker": "-25.8 LUFS (Very good)",
       "batlife": "Endurance rating 49h"
     }
+  },
+  {
+    "Phone Name": "Huawei Pura 70 Ultra",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41, 42",
+      "net5g": "SA/NSA - China only",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, April 18",
+      "status": "Available. Released 2024, April 29"
+    },
+    "Body": {
+      "dimensions": "162.6 x 75.1 x 8.4 mm (6.40 x 2.96 x 0.33 in)",
+      "weight": "226 g (7.97 oz)",
+      "build": "Glass front, aluminum frame, silicone polymer back (eco leather)",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)"
+    },
+    "Display": {
+      "displaytype": "LTPO OLED, 1B colors, HDR, 120Hz, 2500 nits (peak)",
+      "displaysize": "6.8 inches, 109.0 cm2 (~89.3% screen-to-body ratio)",
+      "displayresolution": "1260 x 2844 pixels (~460 ppi density)",
+      "displayprotection": "Kunlun Glass (Basalt-tempered)"
+    },
+    "Platform": {
+      "os": "EMUI 14.2 (International), HarmonyOS 4.2 (China)",
+      "chipset": "Kirin 9010 (7 nm)",
+      "cpu": "Octa-core (1x2.3 GHz Taishan Big & 3x2.18 GHz Taishan Mid & 4x1.55 GHz Cortex-A510)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.6-4.0, 23mm (wide), 1.0\"-type, dual pixel PDAF, sensor-shift OIS, retractable lens 50 MP, f/2.1, 90mm (telephoto), PDAF (5cm - ∞), OIS, 3.5x optical zoom 40 MP, f/2.2, 13mm (ultrawide), AF",
+      "cam1features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+      "cam1video": "4K, 1080p, HDR, gyro-EIS, OIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "13 MP, f/2.4, (ultrawide), AF",
+      "cam2features": "HDR, panorama",
+      "cam2video": "Yes, HDR"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE, L2HC",
+      "gps": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+      "nfc": "Yes; NFC-SIM, HCE",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, proximity, gyro, compass",
+      "featuresother": "BDS Satellite Calling and Messaging - China only"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 5200 mAh",
+      "Charging": "100W wired 80W wireless 20W reverse wireless 18W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black, White, Brown, Green",
+      "models": "HBP-LX9, HBP-AL00",
+      "price": "$ 1,440.00 / € 1,089.39 / £ 1,120.15"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 987197 (v10) GeekBench: 4482 (v6) 3DMark: 1578 (Wild Life Extreme)",
+      "Display": "1231 nits max brightness (measured)",
+      "Loudspeaker": "-28.3 LUFS (Average)",
+      "batlife2": "Active use score 12:29h"
+    }
+  },
+  {
+    "Phone Name": "Huawei Mate X6",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+      "net4g": "LTE",
+      "net5g": "SA/NSA",
+      "speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "year": "2024, November 26",
+      "status": "Available. Released 2024, November 26"
+    },
+    "Body": {
+      "dimensions": "Unfolded: 156.6 x 144.1 x 4.6 mmFolded: 156.6 x 73.8 x 9.9 mm",
+      "weight": "239 g (8.43 oz)",
+      "build": "Glass front, nylon fiber or silicone polymer back (eco leather), aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM",
+      "bodyother": "IPX8 dust/water resistant (up to 2m for 30 min) Aerospace-grade aluminum"
+    },
+    "Display": {
+      "displaytype": "Foldable LTPO OLED, 1B colors, 120Hz, HDR Vivid, 1800 nits (peak)",
+      "displaysize": "7.93 inches, 202.1 cm2 (~91.5% screen-to-body ratio)",
+      "displayresolution": "2240 x 2440 pixels (~418 ppi density)",
+      "displayprotection": "Kunlun Glass 2",
+      "displayother": "Cover display: LTPO OLED, 120Hz, HDR, 2500 nits (peak), 6.45 inches, 1080 x 2440 pixels"
+    },
+    "Platform": {
+      "os": "HarmonyOS 4.3 / EMUI 15",
+      "chipset": "Kirin 9020",
+      "cpu": "Octa-core (1x2.5 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.53GHz Cortex-A510)",
+      "gpu": "Maleoon 920"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+      "memoryother": "UFS"
+    },
+    "Main Camera": {
+      "cam1modules": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS 48 MP, f/3.0, 90mm (periscope telephoto), PDAF, OIS, 4x optical zoom 40 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF",
+      "cam1features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+      "cam1video": "4K, 1080p, HDR, gyro-EIS, OIS, HDR Vivid"
+    },
+    "Selfie camera": {
+      "cam2modules": "8 MP, f/2.2, (wide) Cover camera: 8 MP, f/2.4, (wide)",
+      "cam2features": "HDR, panorama",
+      "cam2video": "4K, 1080p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "bluetooth": "5.2, A2DP, LE, L2HC",
+      "gps": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+      "nfc": "Yes; NFC-SIM, HCE",
+      "Infrared port": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+    },
+    "Features": {
+      "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+      "featuresother": "BDS Satellite and Messaging - China only"
+    },
+    "Battery": {
+      "batdescription1": "Si/C Li-Ion 5110 or 5200 mAh",
+      "Charging": "66W wired 50W wireless 7.5W reverse wireless 5W reverse wired"
+    },
+    "Misc": {
+      "colors": "Black, White, Gray, Blue, Red",
+      "models": "ICL-AL10, ICL-LX9",
+      "price": "About 2000 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 1298127 (v10) GeekBench: 5218 (v6) 3DMark: 1907 (Wild Life Extreme)",
+      "Display": "1173 nits max brightness (measured)",
+      "Loudspeaker": "-27.3 LUFS (Good)",
+      "batlife2": "Active use score 8:56h"
+    }
+  },
+  {
+    "Phone Name": "OnePlus 7T Pro",
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / LTE",
+      "net2g": "GSM 850 / 900 / 1800 / 1900",
+      "net3g": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100",
+      "net4g": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 32, 34, 38, 39, 40, 41, 66",
+      "speed": "HSPA 42.2/5.76 Mbps, LTE (5CA) Cat18 1200/150 Mbps"
+    },
+    "Launch": {
+      "year": "2019, October 10",
+      "status": "Available. Released 2019, October 12"
+    },
+    "Body": {
+      "dimensions": "162.6 x 75.9 x 8.8 mm (6.40 x 2.99 x 0.35 in)",
+      "weight": "206 g (7.27 oz)",
+      "build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+      "sim": "Nano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "displaytype": "Fluid AMOLED, 90Hz, HDR10+",
+      "displaysize": "6.67 inches, 108.8 cm2 (~88.1% screen-to-body ratio)",
+      "displayresolution": "1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)",
+      "displayprotection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "os": "Android 10, upgradable to Android 12, OxygenOS 12.1",
+      "chipset": "Qualcomm SM8150 Snapdragon 855+ (7 nm)",
+      "cpu": "Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+      "gpu": "Adreno 640 (700 MHz)"
+    },
+    "Memory": {
+      "memoryslot": "No",
+      "internalmemory": "256GB 8GB RAM, 256GB 12GB RAM",
+      "memoryother": "12GB RAM - McLaren Edition only UFS 3.0"
+    },
+    "Main Camera": {
+      "cam1modules": "48 MP, f/1.6, (wide), 1/2.0\", 0.8µm, PDAF, OIS 8 MP, f/2.4, 78mm (telephoto), 3x optical zoom, PDAF, OIS 16 MP, f/2.2, 17mm (ultrawide), AF",
+      "cam1features": "Laser AF, Dual-LED flash, HDR, panorama",
+      "cam1video": "4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, Auto HDR, gyro-EIS"
+    },
+    "Selfie camera": {
+      "cam2modules": "Motorized pop-up 16 MP, f/2.0, 25mm (wide), 1/3.06\", 1.0µm",
+      "cam2features": "HDR",
+      "cam2video": "1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "bluetooth": "5.0, A2DP, LE, aptX HD",
+      "gps": "GPS (L1+L5), GLONASS (G1), BDS (B1), GALILEO (E1+E5a)",
+      "nfc": "Yes",
+      "radio": "No",
+      "usb": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass",
+      "featuresother": "Virtual proximity sensing"
+    },
+    "Battery": {
+      "batdescription1": "Li-Po 4085 mAh, non-removable",
+      "Charging": "30W wired"
+    },
+    "Misc": {
+      "colors": "Haze Blue, McLaren Edition",
+      "models": "HD1911, HD1913, HD1910",
+      "price": "About 1030 EUR"
+    },
+    "Tests": {
+      "tbench": "AnTuTu: 395868 (v7), 493901 (v8) GeekBench: 11246 (v4.4), 2803 (v5.1) GFXBench: 24fps (ES 3.1 onscreen)",
+      "Display": "Contrast ratio: Infinite (nominal)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "Voice 90dB / Noise 75dB / Ring 82dB",
+      "Audio quality": "Noise -93.7dB / Crosstalk -91.0dB",
+      "batlife": "Endurance rating 100h"
+    }
+  },
+  {
+    "Phone Name": "Samsung Galaxy A13",
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900",
+      "3G bands": "HSDPA 850 / 900 / 2100",
+      "4G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Status": "Available. Released 2022, March 23"
+    },
+    "Body": {
+      "Weight": "195 g (6.88 oz)",
+      "Build": "Glass front (Gorilla Glass 5), plastic frame, plastic back",
+      "SIM": "Nano-SIMNano-SIM + Nano-SIM"
+    },
+    "Display": {
+      "Size": "6.6 inches, 104.9 cm2 (~83.2% screen-to-body ratio)",
+      "Resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "Chipset": "Exynos 850 (8 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G52"
+    },
+    "Memory": {
+      "Internal": "32GB 3GB RAM, 32GB 4GB RAM, 64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM",
+      "": "eMMC 5.1"
+    },
+    "Main Camera": {
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "": "Virtual proximity sensing"
+    },
+    "Battery": {
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Models": "SM-A135F, SM-A135F/DS, SM-A135M, SM-A135U, SM-A135U1, SM-A135N",
+      "SAR": "0.49 W/kg (head)",
+      "SAR EU": "0.37 W/kg (head)     1.39 W/kg (body)",
+      "Price": "€ 127.19 / $ 55.00 / £ 79.95 / ₹ 11,590"
+    },
+    "Tests": {
+      "Display": "1324:1 contrast ratio, 587 nits max brightness (measured)",
+      "Camera": "Photo / Video",
+      "Loudspeaker": "-29.7 LUFS (Average)",
+      "Battery (old)": "Endurance rating 114h"
+    }
   }
 ]
