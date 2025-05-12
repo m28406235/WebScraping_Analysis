@@ -19,12 +19,14 @@ st.title("Phone Data Visualizations")
 
 # Load data
 phone_data = get_processed_phone_data()
-st.write(phone_data.head())
-st.write("Data shape:", phone_data.shape)
-st.write("Columns:", phone_data.columns)
-st.write("Data types:", phone_data.dtypes)
-st.write("Missing values:", phone_data.isnull().sum())
 
+# Display DataFrame using HTML instead of direct st.write to avoid PyArrow conversion issues
+st.markdown("### Phone Data Preview")
+st.write(phone_data.head().to_html(index=False), unsafe_allow_html=True)
+st.write("Data shape:", phone_data.shape)
+st.write("Columns:", phone_data.columns.tolist())  # Convert Index to list
+st.write("Data types:", phone_data.dtypes.astype(str).to_dict())  # Convert dtypes to strings
+st.write("Missing values:", phone_data.isnull().sum().to_dict())  # Convert Series to dict
 
 tier_order = ["Budget", "Mid-Range", "Premium", "Flagship"]
 phone_data["phone_tier"] = pd.Categorical(phone_data["phone_tier"], categories=tier_order, ordered=True)
