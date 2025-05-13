@@ -10,15 +10,16 @@ os.environ["LOKY_MAX_CPU_COUNT"] = "4"
 warnings.filterwarnings("ignore", category=UserWarning, module="joblib")
 pd.options.mode.chained_assignment = None
 
+
 def get_processed_phone_data():
     df = pd.read_json("phone_specs.json")
     specs = {
-        col.lower().replace(" ", "_"): 
-        (pd.json_normalize(df[col]) if isinstance(df[col][0], (dict, list)) 
-         else pd.DataFrame(df[col])) 
+        col.lower().replace(" ", "_"):
+        (pd.json_normalize(df[col]) if isinstance(df[col][0], (dict, list))
+         else pd.DataFrame(df[col]))
         for col in df.columns
     }
-    
+
     data = pd.DataFrame({
         "phone_name": specs["phone_name"].squeeze(),
         "chipset": extract_chipset_info(specs["platform"]["chipset"]),
@@ -32,23 +33,27 @@ def get_processed_phone_data():
     })
 
     pd.set_option("display.float_format", "{:,.0f}".format)
-    
+
     data["display_type"] = data["display_type"].apply(
-        lambda x: "OLED-Based" if pd.notna(x) and "OLED" in str(x).upper() else "LCD-Based"
+        lambda x: "OLED-Based" if pd.notna(
+            x) and "OLED" in str(x).upper() else "LCD-Based"
     )
-    
+
     data = assign_phone_tiers(data)
-    
-    data['price'] = data.groupby('phone_tier')['price'].transform(lambda x: x.fillna(x.mean()))
-    data['refresh_rate'] = data['refresh_rate'].fillna(data['refresh_rate'].mode()[0])
+
+    data['price'] = data.groupby('phone_tier')['price'].transform(
+        lambda x: x.fillna(x.mean()))
+    data['refresh_rate'] = data['refresh_rate'].fillna(
+        data['refresh_rate'].mode()[0])
     data['brightness'] = data['brightness'].astype('float')
-    data['brightness'] = data.groupby('display_type')['brightness'].transform(lambda x: x.fillna(x.mean()))
+    data['brightness'] = data.groupby('display_type')[
+        'brightness'].transform(lambda x: x.fillna(x.mean()))
 
     data["antutu_score"] = pd.to_numeric(data["antutu_score"], errors="coerce")
     data["antutu_score"] = data["antutu_score"].fillna(
         data.groupby("chipset")["antutu_score"].transform("mean")
     ).astype("Int64")
-    
+
     data["antutu_score"] = data["antutu_score"].replace(0, pd.NA)
     encoder = LabelEncoder()
     data["phone_tier_encoded"] = encoder.fit_transform(data["phone_tier"])
@@ -58,25 +63,29 @@ def get_processed_phone_data():
     data["antutu_score"] = imputed_data[:, 2]
     data["antutu_score"] = data["antutu_score"].astype(int)
     data = data.drop(columns=["phone_tier_encoded"])
-    
+
     return data
+
 
 def assign_phone_tiers(data):
     q1, q3 = data['price'].quantile([0.25, 0.75])
     iqr = q3 - q1
     filtered_data = data[data['price'].between(q1 - 1.5 * iqr, q3 + 1.5 * iqr)]
-    
+
     prices = filtered_data['price'].values.reshape(-1, 1)
     scaled_prices = StandardScaler().fit_transform(prices)
     clusters = KMeans(n_clusters=3, random_state=42).fit_predict(scaled_prices)
     filtered_data['phone_tier'] = clusters
-    
-    data = data.merge(filtered_data[['phone_tier']], left_index=True, right_index=True, how='left')
+
+    data = data.merge(filtered_data[['phone_tier']],
+                      left_index=True, right_index=True, how='left')
     data['phone_tier'] = data['phone_tier'].fillna(-1).astype(int)
-    
-    cluster_means = data[data['phone_tier'] != -1].groupby('phone_tier')['price'].mean().sort_values()
-    cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i] for i, c in enumerate(cluster_means.index)}
+
+    cluster_means = data[data['phone_tier'] != -
+                         1].groupby('phone_tier')['price'].mean().sort_values()
+    cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i]
+                   for i, c in enumerate(cluster_means.index)}
     cluster_map[-1] = 'Flagship'
     data['phone_tier'] = data['phone_tier'].map(cluster_map)
-    
+
     return data

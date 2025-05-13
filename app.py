@@ -1,13 +1,13 @@
+from data_processing import get_processed_phone_data
+import streamlit as st
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import pandas as pd
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-import pandas as pd
-import plotly.express as px
-import seaborn as sns
-import matplotlib.pyplot as plt
-import streamlit as st
-from data_processing import get_processed_phone_data
 
 st.set_page_config(page_title="Phone Data Analysis", layout="wide")
 st.title("Phone Data Visualizations")
@@ -21,7 +21,8 @@ st.write("Data types:", phone_data.dtypes.astype(str).to_dict())
 st.write("Missing values:", phone_data.isnull().sum().to_dict())
 
 tier_order = ["Budget", "Mid-Range", "Premium", "Flagship"]
-phone_data["phone_tier"] = pd.Categorical(phone_data["phone_tier"], categories=tier_order, ordered=True)
+phone_data["phone_tier"] = pd.Categorical(
+    phone_data["phone_tier"], categories=tier_order, ordered=True)
 
 color_map = {
     'Budget': 'rgba(0, 200, 81, 0.7)',
@@ -44,7 +45,8 @@ fig = px.scatter(
     color='phone_tier',
     category_orders={'phone_tier': tier_order},
     color_discrete_map=color_map,
-    hover_data={'text': True, 'price': True, 'antutu_score': True, 'phone_tier': False},
+    hover_data={'text': True, 'price': True,
+                'antutu_score': True, 'phone_tier': False},
     title="Price vs Antutu Score",
     labels={'price': 'Price (USD)', 'antutu_score': 'Antutu Score (K)'}
 )
@@ -54,7 +56,8 @@ for _, row in best_phones_data.iterrows():
         x=[row['price']],
         y=[row['antutu_score']],
         mode='markers',
-        marker=dict(symbol='diamond', size=10, color=color_map[row['phone_tier']], line=dict(width=1.2, color='gold')),
+        marker=dict(symbol='diamond', size=10, color=color_map[row['phone_tier']], line=dict(
+            width=1.2, color='gold')),
         name=f"Best Phone ({row['phone_tier']})",
         hovertemplate=(
             f"<b>{row['phone_name']}</b><br>"
@@ -82,7 +85,8 @@ fig = px.scatter(
     color='phone_tier',
     hover_name='phone_name',
     title="Battery Capacity vs Charging Speed",
-    labels={'charging_speed': 'Charging Speed (W)', 'battery_capacity': 'Battery Capacity (mAh)'},
+    labels={
+        'charging_speed': 'Charging Speed (W)', 'battery_capacity': 'Battery Capacity (mAh)'},
     category_orders={"phone_tier": tier_order}
 )
 
@@ -110,7 +114,8 @@ st.plotly_chart(fig)
 
 phone_count_by_tier = phone_data["phone_tier"].value_counts().reset_index()
 phone_count_by_tier.columns = ["phone_tier", "count"]
-phone_count_by_tier["phone_tier"] = pd.Categorical(phone_count_by_tier["phone_tier"], categories=tier_order, ordered=True)
+phone_count_by_tier["phone_tier"] = pd.Categorical(
+    phone_count_by_tier["phone_tier"], categories=tier_order, ordered=True)
 phone_count_by_tier = phone_count_by_tier.sort_values("phone_tier")
 
 fig = px.bar(
@@ -132,7 +137,8 @@ fig.update_layout(
 
 st.plotly_chart(fig)
 
-columns_of_interest = ["price", "antutu_score", "battery_capacity", "charging_speed", "refresh_rate", "brightness"]
+columns_of_interest = ["price", "antutu_score", "battery_capacity",
+                       "charging_speed", "refresh_rate", "brightness"]
 correlation_data = phone_data[columns_of_interest]
 correlation_matrix = correlation_data.corr()
 

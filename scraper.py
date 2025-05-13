@@ -30,8 +30,10 @@ SEARCH_URLS = [
     "https://www.gsmarena.com/results.php3?nPriceMax=150&nDisplayResMin=2073600&chkReview=selected&sAvailabilities=1"
 ]
 
+
 def get_random_headers():
     return {"User-Agent": random.choice(USER_AGENTS)}
+
 
 def extract_specs(specs_element):
     specs = {}
@@ -46,6 +48,7 @@ def extract_specs(specs_element):
                 specs[category][key] = value.text.strip()
     return specs
 
+
 def get_phone_links(url):
     try:
         time.sleep(random.uniform(*DELAY_RANGE))
@@ -56,21 +59,23 @@ def get_phone_links(url):
     except requests.RequestException:
         return []
 
+
 def scrape_phone(url):
     try:
         time.sleep(random.uniform(*DELAY_RANGE))
         response = requests.get(url, headers=get_random_headers(), timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
-        
+
         name = soup.find("h1", class_="specs-phone-name-title")
         specs = soup.find("div", id="specs-list")
         if not (name and specs):
             return None
-            
+
         return {"Phone Name": name.text.strip(), **extract_specs(specs)}
     except requests.RequestException:
         return None
+
 
 def load_json():
     try:
@@ -82,16 +87,18 @@ def load_json():
         pass
     return [], set()
 
+
 def save_json(data):
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
 
 def main():
     data, seen_phones = load_json()
     phone_links = []
     for url in SEARCH_URLS:
         phone_links.extend(get_phone_links(url))
-    
+
     with tqdm(phone_links, desc="Scraping phones") as pbar:
         for url in pbar:
             phone_data = scrape_phone(url)
@@ -99,6 +106,7 @@ def main():
                 data.append(phone_data)
                 seen_phones.add(phone_data["Phone Name"])
                 save_json(data)
+
 
 if __name__ == "__main__":
     main()
