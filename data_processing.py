@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.impute import KNNImputer
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.cluster import KMeans
-from Regex import to_usd, extract_numeric_value, extract_antutu_score, extract_display_type, extract_brightness, extract_chipset_info
+from utils import to_usd, extract_numeric_value, extract_antutu_score, extract_display_type, extract_brightness, extract_chipset_info
 import os
 import warnings
 
