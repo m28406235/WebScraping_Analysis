@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 from sklearn.impute import KNNImputer
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -67,25 +68,17 @@ def get_processed_phone_data():
     return data
 
 
-def assign_phone_tiers(data):
-    q1, q3 = data['price'].quantile([0.25, 0.75])
+def assign_phone_tiers(df):
+    q1, q3 = df['price'].quantile([0.25, 0.75])
     iqr = q3 - q1
-    filtered_data = data[data['price'].between(q1 - 1.5 * iqr, q3 + 1.5 * iqr)]
-
-    prices = filtered_data['price'].values.reshape(-1, 1)
-    scaled_prices = StandardScaler().fit_transform(prices)
-    clusters = KMeans(n_clusters=3, random_state=42).fit_predict(scaled_prices)
-    filtered_data['phone_tier'] = clusters
-
-    data = data.merge(filtered_data[['phone_tier']],
-                      left_index=True, right_index=True, how='left')
-    data['phone_tier'] = data['phone_tier'].fillna(-1).astype(int)
-
-    cluster_means = data[data['phone_tier'] != -
-                         1].groupby('phone_tier')['price'].mean().sort_values()
-    cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i]
-                   for i, c in enumerate(cluster_means.index)}
-    cluster_map[-1] = 'Flagship'
-    data['phone_tier'] = data['phone_tier'].map(cluster_map)
-
-    return data
+    mask = df['price'].between(q1 - 1.5*iqr, q3 + 1.5*iqr)
+    df['tier_num'] = -1
+    kmeans = KMeans(n_clusters=3, random_state=42)
+    df.loc[mask, 'tier_num'] = kmeans.fit_predict(df.loc[mask, ['price']])
+    cluster_order = np.argsort(kmeans.cluster_centers_.squeeze())
+    tier_map = {
+        **{cluster_order[i]: tier for i, tier in enumerate(['Budget', 'Mid-Range', 'Premium'])},
+        -1: 'Flagship'
+    }
+    df['phone_tier'] = df['tier_num'].map(tier_map)
+    return df

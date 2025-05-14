@@ -191,49 +191,34 @@ def get_processed_phone_data():
 ### Helper Function: assign\_phone\_tiers(data)
 
 ```python
-def assign_phone_tiers(data):
+def assign_phone_tiers(df):
 ```
 
-50. Defines function to segment phones into tiers via clustering.
+50. Defines the function to assign phone tiers using price clustering.
 
 ```python
-    q1, q3 = data['price'].quantile([0.25, 0.75])
+    q1, q3 = df['price'].quantile([0.25, 0.75])
     iqr = q3 - q1
-    filtered_data = data[data['price'].between(q1 - 1.5 * iqr, q3 + 1.5 * iqr)]
+    mask = df['price'].between(q1 - 1.5*iqr, q3 + 1.5*iqr)
+    df['tier_num'] = -1
+    kmeans = KMeans(n_clusters=3, random_state=42)
+    df.loc[mask, 'tier_num'] = kmeans.fit_predict(df.loc[mask, ['price']])
+    cluster_order = np.argsort(kmeans.cluster_centers_.squeeze())
+    tier_map = {
+        **{cluster_order[i]: tier for i, tier in enumerate(['Budget', 'Mid-Range', 'Premium'])},
+        -1: 'Flagship'
+    }
+    df['phone_tier'] = df['tier_num'].map(tier_map)
+    return df
 ```
 
-51–53. Computes IQR-based bounds to exclude outliers for clustering.
-
-```python
-    prices = filtered_data['price'].values.reshape(-1, 1)
-    scaled_prices = StandardScaler().fit_transform(prices)
-    clusters = KMeans(n_clusters=3, random_state=42).fit_predict(scaled_prices)
-    filtered_data['phone_tier'] = clusters
-```
-
-54–57. Scales prices, clusters into three groups, and labels them 0–2.
-
-```python
-    data = data.merge(filtered_data[['phone_tier']], left_index=True, right_index=True, how='left')
-    data['phone_tier'] = data['phone_tier'].fillna(-1).astype(int)
-```
-
-58–59. Merges tier labels back to the full dataset; marks outliers as `-1`.
-
-```python
-    cluster_means = data[data['phone_tier'] != -1].groupby('phone_tier')['price'].mean().sort_values()
-    cluster_map = {c: ['Budget', 'Mid-Range', 'Premium'][i] for i, c in enumerate(cluster_means.index)}
-    cluster_map[-1] = 'Flagship'
-    data['phone_tier'] = data['phone_tier'].map(cluster_map)
-```
-
-60–63. Maps numeric clusters to descriptive names; outliers become `Flagship`.
-
-```python
-    return data
-```
-
-64. Returns DataFrame with a `phone_tier` column of descriptive tiers.
+51–62. 
+- Calculates the IQR and masks outliers.
+- Initializes a new column `tier_num` as -1 (for outliers).
+- Applies KMeans clustering to non-outlier prices.
+- Orders clusters by price and maps them to 'Budget', 'Mid-Range', 'Premium'.
+- Outliers are mapped to 'Flagship'.
+- Returns the DataFrame with the `phone_tier` column.
 
 ---
 
