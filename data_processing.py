@@ -81,4 +81,5 @@ def assign_phone_tiers(df):
         -1: 'Flagship'
     }
     df['phone_tier'] = df['tier_num'].map(tier_map)
+    df = df.drop(columns=["tier_num"])
     return df

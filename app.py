@@ -15,7 +15,7 @@ st.title("Phone Data Visualizations")
 phone_data = get_processed_phone_data()
 
 st.markdown("### Phone Data Preview")
-st.write(phone_data.head().to_html(index=False), unsafe_allow_html=True)
+st.write(phone_data.head(60).to_html(index=False), unsafe_allow_html=True)
 st.write("Data shape:", phone_data.shape)
 st.write("Data types:", phone_data.dtypes.astype(str).to_dict())
 st.write("Missing values:", phone_data.isnull().sum().to_dict())
@@ -142,7 +142,7 @@ columns_of_interest = ["price", "antutu_score", "battery_capacity",
 correlation_data = phone_data[columns_of_interest]
 correlation_matrix = correlation_data.corr()
 
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(4, 6))
 sns.heatmap(
     correlation_matrix,
     annot=True,
