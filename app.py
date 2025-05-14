@@ -15,7 +15,7 @@ st.title("Phone Data Visualizations")
 phone_data = get_processed_phone_data()
 
 st.markdown("### Phone Data Preview")
-st.write(phone_data.head(60).to_html(index=False), unsafe_allow_html=True)
+st.write(phone_data.head(10).to_html(index=False), unsafe_allow_html=True)
 st.write("Data shape:", phone_data.shape)
 st.write("Data types:", phone_data.dtypes.astype(str).to_dict())
 st.write("Missing values:", phone_data.isnull().sum().to_dict())
@@ -141,8 +141,7 @@ columns_of_interest = ["price", "antutu_score", "battery_capacity",
                        "charging_speed", "refresh_rate", "brightness"]
 correlation_data = phone_data[columns_of_interest]
 correlation_matrix = correlation_data.corr()
-
-plt.figure(figsize=(4, 6))
+plt.figure(figsize=(3, 3))
 sns.heatmap(
     correlation_matrix,
     annot=True,
@@ -151,9 +150,9 @@ sns.heatmap(
     cbar=True,
     square=True
 )
-plt.title("Correlation Matrix", fontsize=16)
-plt.xticks(rotation=45, ha='right', fontsize=12)
-plt.yticks(fontsize=12)
+plt.title("Correlation Matrix", fontsize=12)
+plt.xticks(rotation=45, ha='right', fontsize=10)
+plt.yticks(fontsize=10)
 st.pyplot(plt)
 
 filtered_data = phone_data[phone_data["antutu_score"] > 0]
